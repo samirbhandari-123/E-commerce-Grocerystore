@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="/website/code/css/about.css">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="">
+
+</head>
+<body>
+
+
+   <!-- header section-->
+   <header class="header">
+   
+   
+    <a href="#" class =" logo"><i class="fa fa-shopping-cart" ></i>हाम्रो KIRANA पसल </a>
+    
+
+    <nav class="navbar">
+        <!-- Link to the home page -->
+		<a href="/website/code/HTML/indexhome.html">Home</a>
+		<!-- Link to the blogs page -->
+		<a href="/website/code/HTML/index.html"> Blogs</a>
+		<!-- Link to the products page -->
+		<a href="/website/code/HTML/product.html">Products</a>
+		<!-- Link to the research page -->
+		<a href="/website/code/HTML/Research.html">Research</a>
+		<!-- Link to the about us page -->
+		<a href="/website/code/HTML/about.html">About us</a>
+       
+     
+     
+    </nav>
+
+    
+
+ <!--icons-->
+
+ <div class="icons">
+  <!-- Icon for the menu -->
+  <div class="fa fa-bars" id="menu-btn" ></div>
+  <!-- Icon for the search bar -->
+  <div class="fa fa-search" id="search-btn" style="color: black;"></div>
+   <!-- Icon for the shopping cart -->
+  <div class="fa fa-shopping-cart" id="cart-btn" style="color: black;"></div>
+  <!-- Icon for the user login -->
+   <a href="/website/code/HTML/loginpage.html"><div class="fa fa-user" id="login-btn" style="color: black;"></div> </a>
+  
+</div>
+
+
+
+<!--Search bar section-->
+
+<form class="search-form">
+  <!-- Search input field -->
+ <input type="Search" id="Search-box" placeholder="Search here...">
+  <!-- Search icon -->
+ <label for="search box" class="search-btn"></label>
+
+</form>
+<!--Search bar section end-->
+
+
+
+
+</header>
+ <!--header section end-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <h1>About Us</h1>
+
+    <div class="profile">
+		
+
+
+		<a href="/website/code/HTML/Samir.html">
+			<img src="/website/image/samir profile.jpg" alt="Person 3">
+			<h2>Samir Bhandari</h2>
+			<p>Home page</p>
+		</a>
+	</div> 
+        
+		
+	</div> 
+	<div class="profile">
+		<a href="/Website/code/HTML/Niruta.html">
+			<img src="/website/image/Neeruu.JPG"  alt="Person 1">
+			<h2>Niruta Silwal</h2>
+			<p>Blog page/About us page</p>
+		 </a>  
+	</div>
+	 <div class="profile">
+
+		<a href="/website/code/HTML/Karan.html">
+			<img src="/website/image/Karan.jpeg" alt="Person 4">
+			<h2>Karan Dhamala</h2>
+			<p>Product page</p>
+		</a>
+	</div> 
+	<div class="profile">
+		
+		<a href="/website/code/HTML/Bipan.html">
+			<img src="/website/image/Bipan.jpeg" alt="Person 2">
+			<h2>Bipan Thapa</h2>
+			<p>Research page</p>
+		</a>
+	</div>
+		</a>
+	</div><br><br>
+	 <div class="Feedback Form">
+		<div class="Feedback Form">
+			<form name="Review" onsubmit="valid()">
+	
+		<h1>A Feedback Form</h1><br/><br/>
+		<label> Name:</label>
+		<input type="text" name="name" placeholder="Enter your  name"><br><br>
+		
+		
+		<label>Gender:</label>
+		<input type="radio" name="genderDetails" value="male " checked>male<input type="radio" name="genderDetails" value="female ">Female<br><br>
+		<div class="message">
+	 <label>Message: </label><br/><br>
+	<textarea name="Message" placeholder="Enter your message"></textarea>
+	
+	
+	<button type="submit" value="submit">Submit</button>
+	
+		</form> 
+
+
+		<script>
+			function valid(){
+	var name=document.forms["Review"]["name"].value;
+	var Message=document.forms["Review"]["Message"].value;
+	 
+	if(name==""||  Message=="")
+	{
+		alert("Sorry,You haven't fulfill form as required🥹");
+		return false;
+	}
+
+	else{
+		alert("Thank you for your response❤️.");
+		return true;
+	}
+			}
+		</script>
+
+		
+	</div>
+	 </div> 
+
+
+
+
+
+
+
+<!--footer section starts-->
+
+
+ 
+<section class="footer">
+	<div class="box-container">
+	 <div class="box">
+	   <h2> <a href="#" class =" logo"><i class="fa fa-shopping-cart" ></i>हाम्रो KIRANA पसल </a></h2>
+	   <p>Follow Our grocery store on your favorite social media platforms to stay up-to-date on our latest offerings, community events, and ways to live a healthier, more fulfilling lifestyle.</p>
+	   <div class="share">
+	   
+		<a href ="#" class="fa fa-facebook"></a>
+		<a href ="#" class="fa fa-twitter"></a>
+		<a href ="#" class="fa fa-instagram"></a>
+		<a href ="#" class="fa fa-whatsapp"></a>
+	 </div>
+  </div>
+  
+  
+  
+  
+  
+  <div class="box">
+	<h2> Contact Info </h2>
+	 <a href="#" class="links"> <i class ="fa fa-phone"></i>9814363662</a>
+	 <a href="#" class="links"> <i class ="fa fa-phone"></i>9807053099</a>
+	 <a href="#" class="links"> <i class ="fa fa-envelope"></i>hamrokirana12@gmail.com</a>
+	 <a href="#" class="links"> <i class ="fa fa-map-marker"></i>Sundarharaincha-5,morang</a>
+  
+	 
+  
+   </div>
+  
+  
+   
+  <div class="box">
+	<h2> Quick links</h2>
+	<a href="/Website/code/HTML/indexhome.html" class="links"> <i class ="fa fa-arrow-right"></i>Home</a>
+    <a href="/Website/code/HTML/index.html" class="links"> <i class ="fa fa-arrow-right"></i>Blogs</a>
+    <a href="/Website/code/HTML/product.html" class="links"> <i class ="fa fa-arrow-right"></i>Products</a>
+    <a href="/Website/code/HTML/Research.html" class="links"> <i class ="fa fa-arrow-right"></i>Research</a>
+    <a href="/Website/code/HTML/about.html" class="links"> <i class ="fa fa-arrow-right"></i>About us</a>
+  
+	 </div>
+  
+  
+	 <div class="box">
+		<h2> Newsletter</h2>
+		<p>Please Subscribe For Latest Updates</p>
+		<input type="email" placeholder="Your Email Address" class="email">
+		<input type="submit" value="Subscribe" class="btn">
+		
+		 </div>
+  
+  
+  </div>
+  
+  <div class="credit"><span> Grocery Store </span> | All Rights Reserved</div>
+	 
+  </p> 
+  </section>
+  
+  <!--footer section end-->
+  
+  
+  
+  
+  
+  
+  
+  
+  <!--code for linking javascript-->
+  
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+  <script src="/website/code/javascript/home script.js"></script>
+ 
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+</body>
+</html>

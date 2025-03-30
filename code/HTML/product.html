@@ -1,0 +1,1952 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Grocery</title>
+     <!-- External CSS files -->
+    <link rel="stylesheet" href="/website/code/css/style.css">
+    <link rel="stylesheet" href="/Website/code/css/stylesproducts.css">
+   
+
+
+   
+
+</head>
+
+
+<body>
+     <!-- Header section -->
+     <header class="header">
+         <a href="#" class="logo"><i class="fa fa-shopping-cart"></i>हाम्रो KIRANA पसल </a> 
+         
+         <a href="/website/code/HTML/indexhome.html" class="back-arrow">Back </a> 
+         
+        <!-- Navigation -->
+        <nav class="navbar">
+         <!-- Link to the home page -->
+        <a href="/website/code/HTML/indexhome.html">Home</a>
+        <!-- Link to the blogs page -->
+        <a href="/website/code/HTML/index.html"> Blogs</a>
+        <!-- Link to the products page -->
+        <a href="/website/code/HTML/product.html">Products</a>
+        <!-- Link to the research page -->
+        <a href="/website/code/HTML/Research.html">Research</a>
+        <!-- Link to the about us page -->
+        <a href="/website/code/HTML/about.html">About us</a>
+        </nav>
+
+       
+
+         <!--icons-->
+
+        <div class="icons">
+            <!-- Icon for the menu -->
+            <div class="fa fa-bars" id="menu-btn" ></div>
+            <!-- Icon for the search bar -->
+            <div class="fa fa-search" id="search-btn" style="color: black;"></div>
+             <!-- Icon for the shopping cart-->
+         <div class="fa fa-shopping-cart" id="cart-btn" style="color: black;"></div>  
+        
+            <!-- Icon for the user login -->
+            <a href="/website/code/HTML/loginpage.html"><div class="fa fa-user" id="login-btn" style="color: black;"></div></a>
+            
+          
+        </div>
+        
+
+   
+
+ <!-- Search form -->
+<form class="search-form">
+    <input type="Search" id="Search-box" placeholder="Search here...">
+    <label for="search box" class="fa fa-search"></label>
+</form>
+
+
+
+
+</header>
+
+   <!-- our products section-->
+ <section class="products" id="products">
+    <h2 class="heading"> Our <span> products</span></h2>
+    <button id="cart-btn" onclick="goToCart()">Go to Cart (<span id="cart-count">0</span>)</button>
+    <div class="product-slider">
+      <div class="wrapper">
+          <div class=" box">
+              <h2 id="Vegetables">Vegetables</h2> 
+              <div class="category"> 
+                  <!-- Product 1 -->
+                  <div class="product"> 
+                      <div class="image-placeholder  
+                                  image-placeholder1"> 
+                          <img src="/website/image/naya aalu.jpg"
+                               alt="grocery"> 
+                      </div> 
+                      <h3>Red Potato(Naya aalu)</h3> 
+                      <div class="stars">
+                       <span>&#9733;</span>
+                       <span>&#9733;</span>
+                       <span>&#9733;</span>
+                       <span>&#9733;</span>
+                       <span>&#9733;</span>
+                    </div>
+                      <p class="price">NRs 65/1kg</p> 
+                      <div class="qyt"> 
+                          <label for="quantity_vegetable1"> 
+                             Quantity: 
+                          </label> 
+                          <input type="number" 
+                                 id="quantity_vegetable1" 
+                                 value="1"> 
+                      </div> 
+                      <div class="productbtns"> 
+                        <button class="add-to-cart-btn"> Add To Cart </button>
+                    
+                          <a href="/website/code/HTML/red potato description.html" class="btn">Read more</a>
+                      </div> 
+                  </div> 
+
+
+                 
+
+             
+  
+                  <!-- Product 2 -->
+                  <div class="product"> 
+                    
+                      <div class="image-placeholder  
+                                  image-placeholder2"> 
+                         <img src="/website/image/carrot.jpg"
+                              alt="grocery"> </a>
+                      </div> 
+                      <h3>Carrot</h3> 
+                      <div class="stars">
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                    </div>
+                      <p class="price">NRs 60/1kg</p> 
+                      <div class="qyt"> 
+                          <label for="quantity_vegetable2"> 
+                              Quantity: 
+                          </label> 
+                          <input type="number" 
+                                 id="quantity_vegetable2" 
+                                 value="1"> 
+                      </div> 
+                      <div class="productbtns"> 
+                        <button class="add-to-cart-btn"> Add To Cart </button>
+                          
+                        
+                          <a href="/website/code/HTML/carrot description.html" class="btn">Read more</a>
+                      </div> 
+                  </div> 
+  
+  
+  
+  
+                  <!--product 3-->
+                  <div class="product"> 
+                      <div class="image-placeholder  
+                                  image-placeholder1"> 
+                          <img src="/website/image/lauka.jpg" 
+                          alt="grocery"> 
+                               alt="grocery"> 
+                      </div> 
+                      <h3>Lauka </h3> 
+                      <div class="stars">
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                    </div>
+                      <p class="price">NRs 45/500gram</p> 
+                      <div class="qyt"> 
+                          <label for="quantity_vegetable1"> 
+                              Quantity: 
+                          </label> 
+                          <input type="number" 
+                                 id="quantity_vegetable1" 
+                                 value="1"> 
+                      </div> 
+                      <div class="productbtns"> 
+                        <button class="add-to-cart-btn"> Add To Cart </button>
+                         
+                          <a href="/website/lauka description.html" class="btn">Read more</a>
+                      </div> 
+                  </div> 
+  
+  
+  
+                 
+                  <!--product 4-->
+                  <div class="product"> 
+                      <div class="image-placeholder  
+                                  image-placeholder1"> 
+                          <img src="/website/image/Cabbage.jpg"
+                               alt="grocery"> 
+                      </div> 
+                      <h3>Cabbage</h3> 
+                      <div class="stars">
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                      </div>
+                      <p class="price">NRs 45/1kg</p> 
+                      <div class="qyt"> 
+                          <label for="quantity_vegetable1"> 
+                              Quantity: 
+                          </label> 
+                          <input type="number" 
+                                 id="quantity_vegetable1" 
+                                 value="1"> 
+                      </div> 
+                      <div class="productbtns"> 
+                        <button class="add-to-cart-btn"> Add To Cart </button> 
+                          
+                          <a href="/website/code/HTML/cabbage description.html" class="btn">Read more</a>
+                      </div> 
+                  </div> 
+  
+  
+  
+  
+                  
+                  <!--product 5-->
+                  <div class="product"> 
+                      <div class="image-placeholder  
+                                  image-placeholder1"> 
+                          <img src="/website/image/capsicum.jpg"
+                               alt="grocery"> 
+                      </div> 
+                      <h3>Capsicum</h3> 
+                      <div class="stars">
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                      </div>
+                      <p class="price">NRs 100/500 gram</p> 
+                      <div class="qyt"> 
+                          <label for="quantity_vegetable1"> 
+                              Quantity: 
+                          </label> 
+                          <input type="number" 
+                                 id="quantity_vegetable1" 
+                                 value="1"> 
+                      </div> 
+                      <div class="productbtns"> 
+                        <button class="add-to-cart-btn"> Add To Cart </button> 
+                        
+                          <a href="/website/code/HTML/capsicum description.html" class="btn">Read more</a>
+                      </div> 
+                  </div> 
+  
+  
+  
+                 
+                  <!--product 6-->
+                  <div class="product"> 
+                      <div class="image-placeholder  
+                                  image-placeholder1"> 
+                                  <img src="/website/image/brinjal.jpg"
+                                  alt="grocery"> 
+                          
+                      </div> 
+                      <h3>Brinjal</h3> 
+                      <div class="stars">
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                      </div>
+                      <p class="price">NRs 100/1kg</p> 
+                      <div class="qyt"> 
+                          <label for="quantity_vegetable1"> 
+                              Quantity: 
+                          </label> 
+                          <input type="number" 
+                                 id="quantity_vegetable1" 
+                                 value="1"> 
+                      </div> 
+                      <div class="productbtns"> 
+                        <button class="add-to-cart-btn"> Add To Cart </button> 
+                        
+                          <a href="/website/code/HTML/brinjal description.html" class="btn">Read more</a>
+                      </div> 
+                  </div> 
+  
+  
+                  
+                  <!--product 7-->
+                  <div class="product"> 
+                      <div class="image-placeholder  
+                                  image-placeholder1"> 
+                          <img src="/website/image/mint leaves.jpg"
+                               alt="grocery"> 
+                      </div> 
+                      <h3>Mint Leaves(Pudina)</h3> 
+                      <div class="stars">
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                      </div>
+                      <p class="price">NRs 110/1bunch</p> 
+                      <div class="qyt"> 
+                          <label for="quantity_vegetable1"> 
+                              Quantity: 
+                          </label> 
+                          <input type="number" 
+                                 id="quantity_vegetable1" 
+                                 value="1"> 
+                      </div> 
+                      <div class="productbtns"> 
+                          <button> 
+                              Add to Cart 
+                          </button> 
+                         
+                          <a href="/website/code/HTML/mint leaves description.html" class="btn">Read more</a>
+                      </div> 
+                  </div> 
+  
+  
+                  
+                  <!--product 8-->
+                  <div class="product"> 
+                      <div class="image-placeholder  
+                                  image-placeholder1"> 
+                          <img src="/website/image/chayote squash.jpg"
+                               alt="grocery"> 
+                      </div> 
+                      <h3>Chayote Squash</h3> 
+                      <div class="stars">
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                      </div>
+                      <p class="price">NRs 90/1kg</p> 
+                      <div class="qyt"> 
+                          <label for="quantity_vegetable1"> 
+                              Quantity: 
+                          </label> 
+                          <input type="number" 
+                                 id="quantity_vegetable1" 
+                                 value="1"> 
+                      </div> 
+                      <div class="productbtns"> 
+                          <button> 
+                              Add to Cart 
+                          </button> 
+                          
+                          <a href="/website/code/HTML/chayote squash description.html" class="btn">Read more</a> 
+                      </div> 
+                  </div> 
+  
+                  <!--product 9-->
+  
+                  <div class="product"> 
+                      <div class="image-placeholder  
+                                  image-placeholder1"> 
+                          <img src="/website/image/green pumpkin.jpg"
+                               alt="grocery"> 
+                      </div> 
+                      <h3>Green Pumpkin</h3> 
+                      <div class="stars">
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                      </div>
+                      <p class="price">NRs 80/1kg</p> 
+                      <div class="qyt"> 
+                          <label for="quantity_vegetable1"> 
+                              Quantity: 
+                          </label> 
+                          <input type="number" 
+                                 id="quantity_vegetable1" 
+                                 value="1"> 
+                      </div> 
+                      <div class="productbtns"> 
+                          <button> 
+                              Add to Cart 
+                          </button> 
+                        
+                          <a href="/website/code/HTML/green pumpkin description.html" class="btn">Read more</a>
+                      </div> 
+                  </div> 
+     
+
+                   <!--product 10-->
+
+                  <div class="product"> 
+                    <div class="image-placeholder  
+                                image-placeholder1"> 
+                        <img src="/website/image/Sweat potato.jpeg" 
+                        alt="grocery"> 
+                             alt="grocery"> 
+                    </div> 
+                    <h3>Sweat potato</h3> 
+                    <div class="stars">
+                        <span>&#9733;</span>
+                       <span>&#9733;</span>
+                       <span>&#9733;</span>
+                       <span>&#9733;</span>
+                       <span>&#9733;</span>
+                    </div>
+                    <p class="price">NRs 200 /1kg</p> 
+                    <div class="qyt"> 
+                        <label for="quantity_vegetable1"> 
+                            Quantity: 
+                        </label> 
+                        <input type="number" 
+                               id="quantity_vegetable1" 
+                               value="1"> 
+                    </div> 
+                    <div class="productbtns"> 
+                        <button> 
+                            Add to Cart 
+                        </button> 
+                        
+                        
+                        <a href="/website/code/HTML/sweet potato description.html" class="btn">Read more</a>
+                    </div> 
+                </div> 
+
+                 <!--product 11-->
+
+                <div class="product"> 
+                    <div class="image-placeholder  
+                                image-placeholder1"> 
+                        <img src="/website/image/pea.jpeg" 
+                        alt="grocery"> 
+                             alt="grocery"> 
+                    </div> 
+                    <h3>pea</h3> 
+                    <div class="stars">
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                    </div>
+                    <p class="price">NRs 150,1kg</p> 
+                    <div class="qyt"> 
+                        <label for="quantity_vegetable1"> 
+                            Quantity: 
+                        </label> 
+                        <input type="number" 
+                               id="quantity_vegetable1" 
+                               value="1"> 
+                    </div> 
+                    <div class="productbtns"> 
+                        <button> 
+                            Add to Cart 
+                        </button> 
+                       
+                        
+                        <a href="/website/code/HTML/pea description.html" class="btn">Read more</a>
+                    </div> 
+                </div> 
+
+
+                 <!--product 12-->
+
+                <div class="product"> 
+                    <div class="image-placeholder  
+                                image-placeholder1"> 
+                        <img src="/website/image/Broccoli.jpg" 
+                        alt="grocery"> 
+                             alt="grocery"> 
+                    </div> 
+                    <h3>Broccoli</h3> 
+                    <div class="stars">
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                    </div>
+                    <p class="price">NRs 100,1kg</p> 
+                    <div class="qyt"> 
+                        <label for="quantity_vegetable1"> 
+                            Quantity: 
+                        </label> 
+                        <input type="number" 
+                               id="quantity_vegetable1" 
+                               value="1"> 
+                    </div> 
+                    <div class="productbtns"> 
+                        <button> 
+                            Add to Cart 
+                        </button> 
+                      
+                        
+                        <a href="/website/code/HTML/broccoli description.html" class="btn">Read more</a>
+                    </div> 
+                </div> 
+
+               <!--product 13-->
+                <div class="product"> 
+                    <div class="image-placeholder  
+                                image-placeholder1"> 
+                        <img src="/website/image/tomato.jpeg" 
+                        alt="grocery"> 
+                             alt="grocery"> 
+                    </div> 
+                    <h3>Tomato</h3> 
+                    <div class="stars">
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                    </div>
+                    <p class="price">NRs 60,1kg</p> 
+                    <div class="qyt"> 
+                        <label for="quantity_vegetable1"> 
+                            Quantity: 
+                        </label> 
+                        <input type="number" 
+                               id="quantity_vegetable1" 
+                               value="1"> 
+                    </div> 
+                    <div class="productbtns"> 
+                        <button> 
+                            Add to Cart 
+                        </button> 
+                      
+                         
+                        <a href="/website/code/HTML/tomato description.html" class="btn">Read more</a>
+                    </div> 
+                </div> 
+                 <!--product 14-->
+
+                <div class="product"> 
+                    <div class="image-placeholder  
+                                image-placeholder1"> 
+                        <img src="/website/image/chilly.jpeg" 
+                        alt="grocery"> 
+                             alt="grocery"> 
+                    </div> 
+                    <h3>Chilly</h3> 
+                    <div class="stars">
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                    </div>
+                    <p class="price">NRs 50,1kg</p> 
+                    <div class="qyt"> 
+                        <label for="quantity_vegetable1"> 
+                            Quantity: 
+                        </label> 
+                        <input type="number" 
+                               id="quantity_vegetable1" 
+                               value="1"> 
+                    </div> 
+                    <div class="productbtns"> 
+                        <button> 
+                            Add to Cart 
+                        </button> 
+                        
+                        
+                        <a href="/website/code/HTML/chilly description.html" class="btn">Read more</a>
+                    </div> 
+                </div> 
+
+               <!--product 15-->
+                <div class="product"> 
+                    <div class="image-placeholder  
+                                image-placeholder1"> 
+                        <img src="/website/image/Cucumber.jpeg" 
+                        alt="grocery"> 
+                             alt="grocery"> 
+                    </div> 
+                    <h3>Cucumber</h3> 
+                    <div class="stars">
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                    </div>
+                    <p class="price">NRs 70,kg</p> 
+                    <div class="qyt"> 
+                        <label for="quantity_vegetable1"> 
+                            Quantity: 
+                        </label> 
+                        <input type="number" 
+                               id="quantity_vegetable1" 
+                               value="1"> 
+                    </div> 
+                    <div class="productbtns"> 
+                        <button> 
+                            Add to Cart 
+                        </button> 
+                       
+                        
+                        <a href="/website/code/HTML/cucumber description.html" class="btn">Read more</a>
+                    </div> 
+                </div> 
+
+                    <!--product 16-->
+                <div class="product"> 
+                    <div class="image-placeholder  
+                                image-placeholder1"> 
+                        <img src="/website/image/Cauliflower.jpg" 
+                        alt="grocery"> 
+                             alt="grocery"> 
+                    </div> 
+                    <h3>Cauliflower</h3> 
+                    <div class="stars">
+                        <span>&#9733;</span>
+                       <span>&#9733;</span>
+                       <span>&#9733;</span>
+                       <span>&#9733;</span>
+                       <span>&#9733;</span>
+                    </div>
+                    <p class="price">NRs 90,1kg</p> 
+                    <div class="qyt"> 
+                        <label for="quantity_vegetable1"> 
+                            Quantity: 
+                        </label> 
+                        <input type="number" 
+                               id="quantity_vegetable1" 
+                               value="1"> 
+                    </div> 
+                    <div class="productbtns"> 
+                        <button> 
+                            Add to Cart 
+                        </button> 
+                       
+                        
+                        <a href="/website/code/HTML/cauliflower description.html" class="btn">Read more</a>
+                    </div> 
+                </div> 
+
+                
+<!--you can explore product category here-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <section class="explore-section">
+    <div class="Explore section">
+      <a href="/website/code/HTML/vegetable description.html" class="btn"> vegetable description </a>
+    </div>
+  </section>
+
+
+</div>
+</section>
+
+  
+    
+          <section> 
+              <h2 id="fruits">Fruits</h2> 
+              <div class="category"> 
+                  <!-- Product 1 -->
+                  <div class="product"> 
+                      <div class="image-placeholder image-placeholder5"> 
+                          <img src="/website/image/semi husked fresh coconut.jpg"
+                              alt="grocery"> 
+                      </div> 
+                      <h3>Semi Husked Fresh coconut</h3> 
+                      <div class="stars">
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                      </div>
+                      <p class="price">NRs 70/1piece</p> 
+                      <div class="qyt"> 
+                          <label for="quantity_fruit1"> 
+                              Quantity: 
+                          </label> 
+                          <input type="number" 
+                                 id="quantity_fruit1"
+                                 value="1"> 
+                      </div> 
+                      <div class="productbtns"> 
+                          <button>Add to Cart</button> 
+                         
+                          
+                          <a href="/website/code/HTML/semi husked fresh coconut description.html" class="btn">Read more</a>
+                      </div> 
+                  </div> 
+  
+                  <!-- Product 2 -->
+                  <div class="product"> 
+                      <div class="image-placeholder  
+                                  image-placeholder6"> 
+                          <img src="/website/image/watermelon.jpg"
+                              alt="grocery"> 
+                      </div> 
+                      <h3>Watermelon</h3> 
+                      <div class="stars">
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                      </div>
+                      <p class="price">NRs 90/1kg</p> 
+                      <div class="qyt"> 
+                          <label for="quantity_fruit2"> 
+                              Quantity: 
+                          </label> 
+                          <input type="number" 
+                                 id="quantity_fruit2" 
+                                 value="1"> 
+                      </div> 
+                      <div class="productbtns"> 
+                          <button>Add to Cart</button> 
+                         
+                          <a href="/website/code/HTML/watermelon description.html" class="btn">Read more</a>
+                      </div> 
+                  </div> 
+  
+  
+                 <!-- Product 3 -->
+  
+                  <div class="product"> 
+                      <div class="image-placeholder  
+                                  image-placeholder6"> 
+                           <img src="/website/image/apple fuji.jpeg"
+                                  alt="grocery">  
+                      </div> 
+                      <h3>Apple Fuji</h3> 
+                      <div class="stars">
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                      </div>
+                      <p class="price">NRs 399/1kg</p> 
+                      <div class="qyt"> 
+                          <label for="quantity_fruit2"> 
+                              Quantity: 
+                          </label> 
+                          <input type="number" 
+                                 id="quantity_fruit2" 
+                                 value="1"> 
+                      </div> 
+                      <div class="productbtns"> 
+                          <button>Add to Cart</button> 
+                         
+                          <a href="/website/code/HTML/apple fuji description.html" class="btn">Read more</a>
+                      </div> 
+                  </div> 
+  
+  
+                 <!-- Product 4 -->
+  
+                  <div class="product"> 
+                      <div class="image-placeholder  
+                                  image-placeholder6"> 
+                          <img src="/website/image/black grapes.jpg"
+                              alt="grocery"> 
+                      </div> 
+                      <h3>Black Grapes </h3> 
+                      <div class="stars">
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                      </div>
+                      <p class="price">NRs 330/1kg</p> 
+                      <div class="qyt"> 
+                          <label for="quantity_fruit2"> 
+                              Quantity: 
+                          </label> 
+                          <input type="number" 
+                                 id="quantity_fruit2" 
+                                 value="1"> 
+                      </div> 
+                      <div class="productbtns"> 
+                          <button>Add to Cart</button> 
+                         
+                          <a href="/website/code/HTML/black grapes.html" class="btn">Read more</a>
+                      </div> 
+                  </div> 
+  
+  
+  
+                  <!-- Product 5 -->
+  
+                  <div class="product"> 
+                      <div class="image-placeholder  
+                                  image-placeholder6"> 
+                          <img src="/website/image/green grapes.jpg"
+                              alt="grocery"> 
+                      </div> 
+                      <h3>Green Grapes</h3> 
+                      <div class="stars">
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                      </div>
+                      <p class="price">NRs 180/1kg</p> 
+                      <div class="qyt"> 
+                          <label for="quantity_fruit2"> 
+                              Quantity: 
+                          </label> 
+                          <input type="number" 
+                                 id="quantity_fruit2" 
+                                 value="1"> 
+                      </div> 
+                      <div class="productbtns"> 
+                          <button>Add to Cart</button> 
+                          
+                          <a href="/website/code/HTML/green grapes description.html" class="btn">Read more</a>
+                      </div> 
+                  </div> 
+  
+  
+  
+                   <!-- Product 6-->
+                
+  
+                  <div class="product"> 
+                      <div class="image-placeholder  
+                                  image-placeholder6"> 
+                          <img src="/website/image/Pineapple.png"
+                              alt="grocery"> 
+                      </div> 
+                      <h3>Pineapple</h3> 
+                      <div class="stars">
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                      </div>
+                      <p class="price">NRs 180/1kg</p> 
+                      <div class="qyt"> 
+                          <label for="quantity_fruit2"> 
+                              Quantity: 
+                          </label> 
+                          <input type="number" 
+                                 id="quantity_fruit2" 
+                                 value="1"> 
+                      </div> 
+                      <div class="productbtns"> 
+                          <button>Add to Cart</button> 
+                          
+                          <a href="/website/code/HTML/pineapple description.html" class="btn">Read more</a>
+                      </div> 
+                  </div> 
+  
+  
+  
+                  <!-- Product 7 -->
+  
+                  <div class="product"> 
+                      <div class="image-placeholder  
+                                  image-placeholder6"> 
+                          <img src="/website/image/dragon fruits.jpg"
+                              alt="grocery"> 
+                      </div> 
+                      <h3>Dragon Fruits</h3> 
+                      <div class="stars">
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                      </div>
+                      <p class="price">NRs 470/1kg</p> 
+                      <div class="qyt"> 
+                          <label for="quantity_fruit2"> 
+                              Quantity: 
+                          </label> 
+                          <input type="number" 
+                                 id="quantity_fruit2" 
+                                 value="1"> 
+                      </div> 
+                      <div class="productbtns"> 
+                          <button>Add to Cart</button> 
+                         
+                          <a href="/website/code/HTML/dragon fruit description.html" class="btn">Read more</a>
+                      </div> 
+                  </div> 
+  
+  
+  
+                  <!-- Product 8 -->
+  
+  
+                  <div class="product"> 
+                      <div class="image-placeholder  
+                                  image-placeholder6"> 
+                          <img src="/website/image/papaya.png"
+                              alt="grocery"> 
+                      </div> 
+                      <h3>Papaya </h3> 
+                      <div class="stars">
+                        <span>&#9733;</span>
+                       <span>&#9733;</span>
+                       <span>&#9733;</span>
+                       <span>&#9733;</span>
+                       <span>&#9733;</span>
+                      </div>
+                      <p class="price">NRs 110/1kg</p> 
+                      <div class="qyt"> 
+                          <label for="quantity_fruit2"> 
+                              Quantity: 
+                          </label> 
+                          <input type="number" 
+                                 id="quantity_fruit2" 
+                                 value="1"> 
+                      </div> 
+                      <div class="productbtns"> 
+                          <button>Add to Cart</button> 
+                         
+                          
+                          <a href="/website/code/HTML/papaya description.html" class="btn">Read more</a>
+                      </div> 
+                  </div> 
+  
+  
+  
+                    <!-- Product 9-->
+  
+                  <div class="product"> 
+                      <div class="image-placeholder  
+                                  image-placeholder6"> 
+                          <img src="/website/image/pomegranate.jpg"
+                              alt="grocery"> 
+                      </div> 
+                      <h3>Pomegranate</h3>
+                      <div class="stars">
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                      </div> 
+                      <p class="price">NRs 350/1kg</p> 
+                      <div class="qyt"> 
+                          <label for="quantity_fruit2"> 
+                              Quantity: 
+                          </label> 
+                          <input type="number" 
+                                 id="quantity_fruit2" 
+                                 value="1"> 
+                      </div> 
+                      <div class="productbtns"> 
+                          <button>Add to Cart</button> 
+                          
+                           
+                          <a href="/website/code/HTML/pomegranate description.html" class="btn">Read more</a>
+                      </div> 
+                  </div> 
+
+
+                 <!-- Product 10 -->
+
+                  <div class="product"> 
+                    <div class="image-placeholder  
+                                image-placeholder6"> 
+                        <img src="/website/image/Avocado.jpg"
+                            alt="grocery"> 
+                    </div> 
+                    <h3>Avocado</h3>
+                    <div class="stars">
+                        <span>&#9733;</span>
+                       <span>&#9733;</span>
+                       <span>&#9733;</span>
+                       <span>&#9733;</span>
+                       <span>&#9733;</span>
+                    </div> 
+                    <p class="price">NRs 500/1kg</p> 
+                    <div class="qyt"> 
+                        <label for="quantity_fruit2"> 
+                            Quantity: 
+                        </label> 
+                        <input type="number" 
+                               id="quantity_fruit2" 
+                               value="1"> 
+                    </div> 
+                    <div class="productbtns"> 
+                        <button>Add to Cart</button> 
+                       
+                        
+                        <a href="/website/code/HTML/avocado description.html" class="btn">Read more</a>
+                    </div> 
+                </div> 
+             
+                  <!-- Product 11 -->
+
+                <div class="product"> 
+                    <div class="image-placeholder  
+                                image-placeholder6"> 
+                        <img src="/website/image/Beetroot.jpg"
+                            alt="grocery"> 
+                    </div> 
+                    <h3>Beetroot</h3>
+                    <div class="stars">
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                    </div> 
+                    <p class="price">NRs 150/1kg</p> 
+                    <div class="qyt"> 
+                        <label for="quantity_fruit2"> 
+                            Quantity: 
+                        </label> 
+                        <input type="number" 
+                               id="quantity_fruit2" 
+                               value="1"> 
+                    </div> 
+                    <div class="productbtns"> 
+                        <button>Add to Cart</button> 
+                       
+                        
+                        <a href="/website/code/HTML/beetroot description.html" class="btn">Read more</a>
+                    </div> 
+                </div> 
+              
+                  <!-- Product 12-->
+
+                <div class="product"> 
+                    <div class="image-placeholder  
+                                image-placeholder6"> 
+                        <img src="/website/image/mango.jpg"
+                            alt="grocery"> 
+                    </div> 
+                    <h3>Mango</h3>
+                    <div class="stars">
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                    </div> 
+                    <p class="price">NRs 300/1kg</p> 
+                    <div class="qyt"> 
+                        <label for="quantity_fruit2"> 
+                            Quantity: 
+                        </label> 
+                        <input type="number" 
+                               id="quantity_fruit2" 
+                               value="1"> 
+                    </div> 
+                    <div class="productbtns"> 
+                        <button>Add to Cart</button> 
+                       
+                        
+                        <a href="/website/code/HTML/mango description.html" class="btn">Read more</a>
+                    </div> 
+                </section>
+                </div> 
+         
+
+
+                               
+<!--you can see fruits description  here-->
+
+  <section class="explore-section">
+    <div class="Explore section">
+      <a href="/website/code/HTML/fruits description.html" class="btn"> Fruits Description </a>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+<!--  milk Product  -->
+<section> 
+    <h2 id="Dairy products">Dairy products</h2> 
+    <div class="category"> 
+     <!--product 1-->
+    
+    <div class="product"> 
+        <div class="image-placeholder image-placeholder5"> 
+            <img src="/website/image/milk1.jpeg"
+                alt="grocery"> 
+        </div> 
+        <h3>Milk</h3> 
+        <div class="stars">
+            <span>&#9733;</span>
+                       <span>&#9733;</span>
+                       <span>&#9733;</span>
+                       <span>&#9733;</span>
+                       <span>&#9733;</span>
+        </div>
+        <p class="price">NRs 100/per/ltrs</p> 
+        <div class="qyt"> 
+            <label for="quantity_milk"> 
+                Quantity: 
+            </label> 
+            <input type="number" 
+                   id="quantity_milk"
+                   value="1"> 
+        </div> 
+        <div class="productbtns"> 
+            <button>Add to Cart</button> 
+           
+            
+            <a href="/website/code/HTML/milk description.html" class="btn">Read more</a>
+        </div> 
+    </div> 
+    
+     <!--product 2-->
+    
+    <div class="product"> 
+        <div class="image-placeholder image-placeholder5"> 
+            <img src="/website/image/curd.png"
+                alt="grocery"> 
+        </div> 
+        <h3>Curd</h3> 
+        <div class="stars">
+            <span>&#9733;</span>
+            <span>&#9733;</span>
+            <span>&#9733;</span>
+            <span>&#9733;</span>
+            <span>&#9733;</span>
+        </div>
+        <p class="price">NRs 150/per/ltrs</p> 
+        <div class="qyt"> 
+            <label for="quantity_milk"> 
+                Quantity: 
+            </label> 
+            <input type="number" 
+                   id="quantity_milk"
+                   value="1"> 
+        </div> 
+        <div class="productbtns"> 
+            <button>Add to Cart</button> 
+           
+            
+            <a href="/website/code/HTML/curd description.html" class="btn">Read more</a>
+        </div> 
+    </div> 
+    
+     <!--product 3-->
+    
+    <div class="product"> 
+        <div class="image-placeholder image-placeholder5"> 
+            <img src="/website/image/butter.jpg"
+                alt="grocery"> 
+        </div> 
+        <h3>Butter</h3> 
+        <div class="stars">
+            <span>&#9733;</span>
+            <span>&#9733;</span>
+            <span>&#9733;</span>
+            <span>&#9733;</span>
+            <span>&#9733;</span>
+        </div>
+        <p class="price">NRs 750/per/kg</p> 
+        <div class="qyt"> 
+            <label for="quantity_milk"> 
+                Quantity: 
+            </label> 
+            <input type="number" 
+                   id="quantity_milk"
+                   value="1"> 
+        </div> 
+        <div class="productbtns"> 
+            <button>Add to Cart</button> 
+          
+            
+            <a href="/website/code/HTML/butter description.html" class="btn">Read more</a>
+        </div> 
+    </div> 
+    
+     <!--product 4-->
+    
+    <div class="product"> 
+        <div class="image-placeholder image-placeholder5"> 
+            <img src="/website/image/ghee.jpg"
+                alt="grocery"> 
+        </div> 
+        <h3>Ghee</h3> 
+        <div class="stars">
+            <span>&#9733;</span>
+            <span>&#9733;</span>
+            <span>&#9733;</span>
+            <span>&#9733;</span>
+            <span>&#9733;</span>
+        </div>
+        <p class="price">NRs 800/per/ltr</p> 
+        <div class="qyt"> 
+            <label for="quantity_milk"> 
+                Quantity: 
+            </label> 
+            <input type="number" 
+                   id="quantity_milk"
+                   value="1"> 
+        </div> 
+        <div class="productbtns"> 
+            <button>Add to Cart</button> 
+          
+            
+            <a href="/website/code/HTML/ghee description.html" class="btn">Read more</a>
+        </div> 
+    </div> 
+    
+    
+     <!--product 5-->
+    <div class="product"> 
+        <div class="image-placeholder image-placeholder5"> 
+            <img src="/website/image/paneer.jpg"
+                alt="grocery"> 
+        </div> 
+        <h3>Paneer</h3> 
+        <div class="stars">
+            <span>&#9733;</span>
+            <span>&#9733;</span>
+            <span>&#9733;</span>
+            <span>&#9733;</span>
+            <span>&#9733;</span>
+        </div>
+        <p class="price">NRs 700/per/kg</p> 
+        <div class="qyt"> 
+            <label for="quantity_milk"> 
+                Quantity: 
+            </label> 
+            <input type="number" 
+                   id="quantity_milk"
+                   value="1"> 
+        </div> 
+        <div class="productbtns"> 
+            <button>Add to Cart</button> 
+           
+             
+            <a href="/website/code/HTML/paneer description.html" class="btn">Read more</a>
+        </div> 
+    </div> 
+    
+     <!--product 6-->
+    <div class="product"> 
+        <div class="image-placeholder image-placeholder5"> 
+            <img src="/website/image/cheese.jpeg"
+                alt="grocery"> 
+        </div> 
+        <h3>Cheese</h3> 
+        <div class="stars">
+            <span>&#9733;</span>
+            <span>&#9733;</span>
+            <span>&#9733;</span>
+            <span>&#9733;</span>
+            <span>&#9733;</span>
+        </div>
+        <p class="price">NRs 800/per/ltrs</p> 
+        <div class="qyt"> 
+            <label for="quantity_milk"> 
+                Quantity: 
+            </label> 
+            <input type="number" 
+                   id="quantity_milk"
+                   value="1"> 
+        </div> 
+        <div class="productbtns"> 
+            <button>Add to Cart</button> 
+           
+             
+            <a href="/website/code/HTML/cheese description.html" class="btn">Read more</a>
+        </div> 
+    </div> 
+
+</section>
+
+
+                              
+<!--you can see Dairy product all product description  here-->
+
+<section class="explore-section">
+    <div class="Explore section">
+      <a href="/website/code/HTML/milk description.html" class="btn"> Dairy Products Description </a>
+    </div>
+  </section>
+    
+                           
+<!--  Meat  products  -->
+<section> 
+    <h2 id="Meat products">Meat products</h2> 
+    <div class="category"> 
+    
+        <!--product 1-->
+    <div class="product"> 
+        <div class="image-placeholder image-placeholder5"> 
+            <img src="/website/image/chicken meat.jpeg"
+                alt="grocery"> 
+        </div> 
+        <h3>Chicken</h3> 
+        <div class="stars">
+            <span>&#9733;</span>
+            <span>&#9733;</span>
+            <span>&#9733;</span>
+            <span>&#9733;</span>
+            <span>&#9733;</span>
+        </div>
+        <p class="price">NRs 300/per/kg</p> 
+        <div class="qyt"> 
+            <label for="quantity_meat"> 
+                Quantity: 
+            </label> 
+            <input type="number" 
+                   id="quantity_meat"
+                   value="1"> 
+        </div> 
+        <div class="productbtns"> 
+            <button>Add to Cart</button> 
+             
+            <a href="#" class="btn">Read more</a>
+            
+        </div> 
+    </div> 
+    
+    
+
+ <!--product 2-->
+ <div class="product"> 
+    <div class="image-placeholder image-placeholder5"> 
+        <img src="/website/image/beaf.jpeg"
+            alt="grocery"> 
+    </div> 
+    <h3>Beef</h3> 
+    <div class="stars">
+        <span>&#9733;</span>
+        <span>&#9733;</span>
+        <span>&#9733;</span>
+        <span>&#9733;</span>
+        <span>&#9733;</span>
+    </div>
+    <p class="price">NRs 700/per/kg</p> 
+    <div class="qyt"> 
+        <label for="quantity_meat"> 
+            Quantity: 
+        </label> 
+        <input type="number" 
+               id="quantity_meat"
+               value="1"> 
+    </div> 
+    <div class="productbtns"> 
+        <button>Add to Cart</button> 
+        <a href="#" class="btn">Read more</a>
+    </div> 
+</div> 
+
+ <!--product 3-->
+ <div class="product"> 
+    <div class="image-placeholder image-placeholder5"> 
+            <img src="/website/image/pork meat.jpeg"
+                alt="grocery">
+    </div> 
+    <h3>pork</h3> 
+    <div class="stars">
+         <span>&#9733;</span>
+         <span>&#9733;</span>
+         <span>&#9733;</span>
+         <span>&#9733;</span>
+         <span>&#9733;</span>
+    </div>
+    <p class="price">NRs 950/per/kg</p> 
+    <div class="qyt"> 
+        <label for="quantity_meat"> 
+            Quantity: 
+        </label> 
+        <input type="number" 
+               id="quantity_meat"
+               value="1"> 
+    </div> 
+    <div class="productbtns"> 
+        <button>Add to Cart</button> 
+        <a href="#" class="btn">Read more</a>
+    </div> 
+</div> 
+
+<!--product 4-->
+<div class="product"> 
+    <div class="image-placeholder image-placeholder5"> 
+        <img src="/website/image/goat meat.jpeg"
+            alt="grocery"> 
+    </div> 
+    <h3>Goat</h3> 
+    <div class="stars">
+        <span>&#9733;</span>
+         <span>&#9733;</span>
+         <span>&#9733;</span>
+         <span>&#9733;</span>
+         <span>&#9733;</span>
+    </div>
+    <p class="price">NRs 650/per/kg</p> 
+    <div class="qyt"> 
+        <label for="quantity_meat"> 
+            Quantity: 
+        </label> 
+        <input type="number" 
+               id="quantity_meat"
+               value="1"> 
+    </div> 
+    <div class="productbtns"> 
+        <button>Add to Cart</button> 
+        <a href="#" class="btn">Read more</a>
+    </div> 
+</div> 
+</section>
+
+
+                
+<!--you can see meat product description  here-->
+
+<section class="explore-section">
+    <div class="Explore section">
+      <a href="/website/code/HTML/meat description.html" class="btn"> meat description </a>
+    </div>
+  </section>
+
+<!--  Snacks items -->
+<section> 
+    <h2 id="Snacks items">Snacks Items</h2> 
+    <div class="category"> 
+    
+        <!--product 1-->
+    <div class="product"> 
+        <div class="image-placeholder image-placeholder5"> 
+            <img src="/website/image/potato  cracker.jpeg"
+                alt="grocery"> 
+        </div> 
+        <h3>Potato cracker</h3> 
+        <div class="stars">
+            <span>&#9733;</span>
+            <span>&#9733;</span>
+            <span>&#9733;</span>
+            <span>&#9733;</span>
+            <span>&#9733;</span>
+        </div>
+        <p class="price">NRs 50/per/pcs</p> 
+        <div class="qyt"> 
+            <label for="quantity_snack"> 
+                Quantity: 
+            </label> 
+            <input type="number" 
+                   id="quantity_snack"
+                   value="1"> 
+        </div> 
+        <div class="productbtns"> 
+            <button>Add to Cart</button> 
+            <a href="#" class="btn">Read more</a>
+        </div> 
+    </div> 
+    
+    
+ <!--product 2-->
+ <div class="product"> 
+    <div class="image-placeholder image-placeholder5"> 
+        <img src="/website/image/Rumpum.jpeg"
+            alt="grocery"> 
+    </div> 
+    <h3>Rumpum</h3> 
+    <div class="stars">
+        <span>&#9733;</span>
+         <span>&#9733;</span>
+         <span>&#9733;</span>
+         <span>&#9733;</span>
+         <span>&#9733;</span>
+    </div>
+    <p class="price">NRs 20/per/pcs</p> 
+    <div class="qyt"> 
+        <label for="quantity_snack"> 
+            Quantity: 
+        </label> 
+        <input type="number" 
+               id="quantity_snack"
+               value="1"> 
+    </div> 
+    <div class="productbtns"> 
+        <button>Add to Cart</button> 
+        <a href="#" class="btn">Read more</a>
+    </div> 
+</div> 
+ <!--product 3-->
+ <div class="product"> 
+    <div class="image-placeholder image-placeholder5"> 
+        <img src="/website/image/kurmure.jpeg"
+            alt="grocery"> 
+    </div> 
+    <h3>Kurmure</h3> 
+    <div class="stars">
+        <span>&#9733;</span>
+        <span>&#9733;</span>
+        <span>&#9733;</span>
+        <span>&#9733;</span>
+        <span>&#9733;</span>
+    </div>
+    <p class="price">NRs 20/per/pcs</p> 
+    <div class="qyt"> 
+        <label for="quantity_snack"> 
+            Quantity: 
+        </label> 
+        <input type="number" 
+               id="quantity_snack"
+               value="1"> 
+    </div> 
+    <div class="productbtns"> 
+        <button>Add to Cart</button> 
+        <a href="#" class="btn">Read more</a>
+    </div> 
+</div> 
+ <!--product 4-->
+ <div class="product"> 
+    <div class="image-placeholder image-placeholder5"> 
+        <img src="/website/image/cheese ball.jpeg"
+            alt="grocery"> 
+    </div> 
+    <h3>Cheese ball</h3> 
+    <div class="stars">
+        <span>&#9733;</span>
+        <span>&#9733;</span>
+        <span>&#9733;</span>
+        <span>&#9733;</span>
+        <span>&#9733;</span>
+    </div>
+    <p class="price">NRs 50/per/pcs</p> 
+    <div class="qyt"> 
+        <label for="quantity_snack"> 
+            Quantity: 
+        </label> 
+        <input type="number" 
+               id="quantity_snack"
+               value="1"> 
+    </div> 
+    <div class="productbtns"> 
+        <button>Add to Cart</button> 
+        <a href="#" class="btn">Read more</a> 
+    </div> 
+</div> 
+ <!--product 5-->
+ <div class="product"> 
+    <div class="image-placeholder image-placeholder5"> 
+        <img src="/website/image/current Noodle.jpeg"
+            alt="grocery"> 
+    </div> 
+    <h3>Current Noodles</h3> 
+    <div class="stars">
+        <span>&#9733;</span>
+        <span>&#9733;</span>
+        <span>&#9733;</span>
+        <span>&#9733;</span>
+        <span>&#9733;</span>
+    </div>
+    <p class="price">NRs 50/per/pcs</p> 
+    <div class="qyt"> 
+        <label for="quantity_snack"> 
+            Quantity: 
+        </label> 
+        <input type="number" 
+               id="quantity_snack"
+               value="1"> 
+    </div> 
+    <div class="productbtns"> 
+        <button>Add to Cart</button> 
+        <a href="#" class="btn">Read more</a>
+    </div> 
+</div> 
+ <!--product 6-->
+ <div class="product"> 
+    <div class="image-placeholder image-placeholder5"> 
+        <img src="/website/image/Buscuit items.jpg"
+            alt="grocery"> 
+    </div> 
+    <h3>Biscuits</h3> 
+    <div class="stars">
+        <span>&#9733;</span>
+        <span>&#9733;</span>
+        <span>&#9733;</span>
+        <span>&#9733;</span>
+        <span>&#9733;</span>
+    </div>
+    <p class="price">NRs 50/per/pcs</p> 
+    <div class="qyt"> 
+        <label for="quantity_snack"> 
+            Quantity: 
+        </label> 
+        <input type="number" 
+               id="quantity_snack"
+               value="1"> 
+    </div> 
+    <div class="productbtns"> 
+        <button>Add to Cart</button> 
+        <a href="#" class="btn">Read more</a>
+    </div> 
+</div> 
+
+
+</section>
+
+                
+<!--you can see snack item description  here-->
+
+<section class="explore-section">
+    <div class="Explore section">
+      <a href="/website/snack description.html" class="btn"> snack description </a>
+    </div>
+  </section>
+                           
+
+<!--  Household  items  -->
+<section> 
+    <h2 id="Household Items">HouseHold Items</h2> 
+    <div class="category"> 
+    
+        <!--product 1-->
+    <div class="product"> 
+        <div class="image-placeholder image-placeholder5"> 
+            <img src="/website/image/dustbin.jpg"
+                alt="grocery"> 
+        </div> 
+        <h3>Dustbin</h3> 
+        <div class="stars">
+            <span>&#9733;</span>
+            <span>&#9733;</span>
+            <span>&#9733;</span>
+            <span>&#9733;</span>
+            <span>&#9733;</span>
+        </div>
+        <p class="price">NRs 1500/per/pcs</p> 
+        <div class="qyt"> 
+            <label for="quantity_Household"> 
+                Quantity: 
+            </label> 
+            <input type="number" 
+                   id="quantity_Household"
+                   value="1"> 
+        </div> 
+        <div class="productbtns"> 
+            <button>Add to Cart</button> 
+            <a href="#" class="btn">Read more</a>
+        </div> 
+    </div> 
+    
+      <!--product 2-->
+      <div class="product"> 
+        <div class="image-placeholder image-placeholder5"> 
+            <img src="/website/image/chair.jpeg"
+                alt="grocery"> 
+        </div> 
+        <h3>Chair</h3> 
+        <div class="stars">
+            <span>&#9733;</span>
+            <span>&#9733;</span>
+            <span>&#9733;</span>
+            <span>&#9733;</span>
+            <span>&#9733;</span>
+        </div>
+        <p class="price">NRs 700/per/pcs</p> 
+        <div class="qyt"> 
+            <label for="quantity_Household"> 
+                Quantity: 
+            </label> 
+            <input type="number" 
+                   id="quantity_Household"
+                   value="1"> 
+        </div> 
+        <div class="productbtns"> 
+            <button>Add to Cart</button> 
+            <a href="#" class="btn">Read more</a>
+        </div> 
+    </div> 
+    
+      <!--product 3-->
+      <div class="product"> 
+        <div class="image-placeholder image-placeholder5"> 
+            <img src="/website/image/coconut broom.jpg"
+                alt="grocery"> 
+        </div> 
+        <h3>Coconut broom</h3> 
+        <div class="stars">
+            <span>&#9733;</span>
+            <span>&#9733;</span>
+            <span>&#9733;</span>
+            <span>&#9733;</span>
+            <span>&#9733;</span>
+        </div>
+        <p class="price">NRs 150/per/pcs</p> 
+        <div class="qyt"> 
+            <label for="quantity_Household"> 
+                Quantity: 
+            </label> 
+            <input type="number" 
+                   id="quantity_Household"
+                   value="1"> 
+        </div> 
+        <div class="productbtns"> 
+            <button>Add to Cart</button> 
+            <a href="#" class="btn">Read more</a>
+        </div> 
+    </div> 
+      <!--product 4-->
+      <div class="product"> 
+        <div class="image-placeholder image-placeholder5"> 
+            <img src="/website/image/Bathroom items.jpg"
+                alt="grocery"> 
+        </div> 
+        <h3>Bathroom cleaner</h3> 
+        <div class="stars">
+            <span>&#9733;</span>
+            <span>&#9733;</span>
+            <span>&#9733;</span>
+            <span>&#9733;</span>
+            <span>&#9733;</span>
+        </div>
+        <p class="price">NRs 150/per/pcs</p> 
+        <div class="qyt"> 
+            <label for="quantity_Household"> 
+                Quantity: 
+            </label> 
+            <input type="number" 
+                   id="quantity_Household"
+                   value="1"> 
+        </div> 
+        <div class="productbtns"> 
+            <button>Add to Cart</button> 
+            <a href="#" class="btn">Read more</a>
+        </div> 
+    </div> 
+      <!--product 5-->
+      <div class="product"> 
+        <div class="image-placeholder image-placeholder5"> 
+            <img src="/website/image/Body wash.jpg"
+                alt="grocery"> 
+        </div> 
+        <h3>Body wash</h3> 
+        <div class="stars">
+            <span>&#9733;</span>
+         <span>&#9733;</span>
+         <span>&#9733;</span>
+         <span>&#9733;</span>
+         <span>&#9733;</span>
+        </div>
+        <p class="price">NRs 500/per/pcs</p> 
+        <div class="qyt"> 
+            <label for="quantity_Household"> 
+                Quantity: 
+            </label> 
+            <input type="number" 
+                   id="quantity_Household"
+                   value="1"> 
+        </div> 
+        <div class="productbtns"> 
+            <button>Add to Cart</button> 
+            <a href="#" class="btn">Read more</a>
+        </div> 
+    </div> 
+      <!--product 6-->
+      <div class="product"> 
+        <div class="image-placeholder image-placeholder5"> 
+            <img src="/website/image/shampoo.jpeg"
+                alt="grocery"> 
+        </div> 
+        <h3>Shampoo</h3> 
+        <div class="stars">
+            <span>&#9733;</span>
+            <span>&#9733;</span>
+            <span>&#9733;</span>
+            <span>&#9733;</span>
+            <span>&#9733;</span>
+        </div>
+        <p class="price">NRs 500/per/pcs</p> 
+        <div class="qyt"> 
+            <label for="quantity_Household"> 
+                Quantity: 
+            </label> 
+            <input type="number" 
+                   id="quantity_Household"
+                   value="1"> 
+        </div> 
+        <div class="productbtns"> 
+            <button>Add to Cart</button> 
+            <a href="#" class="btn">Read more</a> 
+        </div> 
+    </div> 
+
+    <!--product 7-->
+      <div class="product"> 
+        <div class="image-placeholder image-placeholder5"> 
+            <img src="/website/image/basmati.jpeg"
+                alt="grocery"> 
+        </div> 
+        <h3> Basmati Rice</h3> 
+        <div class="stars">
+            <span>&#9733;</span>
+            <span>&#9733;</span>
+            <span>&#9733;</span>
+            <span>&#9733;</span>
+            <span>&#9733;</span>
+        </div>
+        <p class="price">NRs 2500/25kg</p> 
+        <div class="qyt"> 
+            <label for="quantity_Household"> 
+                Quantity: 
+            </label> 
+            <input type="number" 
+                   id="quantity_Household"
+                   value="1"> 
+        </div> 
+        <div class="productbtns"> 
+            <button>Add to Cart</button> 
+            <a href="#" class="btn">Read more</a>
+        </div> 
+    </div> 
+    
+    
+    <!--product 8-->
+    <div class="product"> 
+        <div class="image-placeholder image-placeholder5"> 
+            <img src="/website/image/mirror.jpeg"
+                alt="grocery"> 
+        </div> 
+        <h3>Mirror</h3> 
+        <div class="stars">
+            <span>&#9733;</span>
+            <span>&#9733;</span>
+            <span>&#9733;</span>
+            <span>&#9733;</span>
+            <span>&#9733;</span>
+        </div>
+        <p class="price">NRs 500/per/pcs</p> 
+        <div class="qyt"> 
+            <label for="quantity_Household"> 
+                Quantity: 
+            </label> 
+            <input type="number" 
+                   id="quantity_Household"
+                   value="1"> 
+        </div> 
+        <div class="productbtns"> 
+            <button>Add to Cart</button> 
+            <a href="#" class="btn">Read more</a>
+        </div> 
+    </div> 
+    
+    </section> 
+      </div>
+      
+                      
+<!--you can see household items description  here-->
+
+<section class="explore-section">
+    <div class="Explore section">
+      <a href="/website/code/HTML/household description.html" class="btn"> household items description </a>
+    </div>
+  </section>
+    
+
+      
+
+  <!--footer section stars-->
+  <section class="footer">
+    <div class="box-container">
+     <div class="box">
+       <h2> <a href="#" class =" logo"><i class="fa fa-shopping-cart" ></i>हाम्रो KIRANA पसल </a></h2>
+       <p>Follow Our Grocery Store on your preferred social media networks to be informed about our most recent products, neighborhood gatherings, and advice on leading a better, more satisfying life.</p>
+       <div class="share">
+        <a href ="#" class="fa fa-facebook"></a>
+        <a href ="#" class="fa fa-twitter"></a>
+        <a href ="#" class="fa fa-instagram"></a>
+        <a href ="#" class="fa fa-whatsapp"></a>
+     </div>
+  </div>
+
+
+  <div class="box">
+    <h2> Contact Info </h2>
+     <a href="#" class="links"> <i class ="fa fa-phone"></i>9814363662</a>
+     <a href="#" class="links"> <i class ="fa fa-phone"></i>9807053099</a>
+     <a href="#" class="links"> <i class ="fa fa-envelope"></i>hamrokirana1@gmail.com</a>
+     <a href="#" class="links"> <i class ="fa fa-map-marker"></i>Sundarharaincha-5,morang</a>
+
+     
+
+   </div>
+
+
+   
+  <div class="box">
+    <h2> Quick links</h2>
+    <a href="/Website/code/HTML/indexhome.html" class="links"> <i class ="fa fa-arrow-right"></i>Home</a>
+    <a href="/Website/code/HTML/index.html" class="links"> <i class ="fa fa-arrow-right"></i>Blogs</a>
+    <a href="/Website/code/HTML/product.html" class="links"> <i class ="fa fa-arrow-right"></i>Products</a>
+    <a href="/Website/code/HTML/Research.html" class="links"> <i class ="fa fa-arrow-right"></i>Research</a>
+    <a href="/Website/code/HTML/about.html" class="links"> <i class ="fa fa-arrow-right"></i>About us</a>
+
+     </div>
+
+
+     <div class="box">
+        <h2> Newsletter</h2>
+        <p>Please Subscribe For Latest Updates</p>
+        <input type="email" placeholder="Your Email Address" class="email">
+        <input type="submit" value="Subscribe" class="btn">
+         <img src="/website/image/payment.png" class="payment-img" alt="payment">
+         </div>
+
+ 
+
+
+</div>
+
+<div class="credit">© 2024 <span>Grocery Store </span> | All Rights Reserved</div>
+     
+</p> 
+</section>
+  
+ <!--footer section end-->
+
+
+
+
+
+  <!--code for linking javascript-->
+  
+
+  <script src="/website/code/javascript/home script.js"></script> 
+  <script src="/website/code/javascript/product.js"></script> 
+
+  <script src="/website/code/javascript/script.js"></script>
+
+ 
+  <div id="cart-items"></div>
+
+  <script src="/Website/code/javascript/cart.js"></script>
+
+    
+</body>
+</html>
+     
+    
+  
+    

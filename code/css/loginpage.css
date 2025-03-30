@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('/website/image/loginbackgrounds.jpg'); /* Replace 'background.jpg' with your image file */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  
+}
+
+.login-container {
+    width: 300px;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333; /* Dark text color */
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333; /* Dark text color */
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: green; /* greenbutton color */
+    color: #fff; /* White text color */
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: orange; /* orangr on hover */
+}
+
+
+
+
+
+
+
+
+/* Add styles for invalid feedback */
+.input-group input:invalid {
+    border-color: red;
+}
+
+.input-group input:invalid + .invalid-feedback {
+    display: block;
+    color: red;
+ } 
+
+

@@ -1,0 +1,234 @@
+
+
+/* Resetting default margin and font-family */
+body { 
+    margin: 0; 
+    font-family: 'Arial', sans-serif; 
+} 
+  
+/* Styling the header */
+header { 
+    background-color: #333; 
+    color: #fff; 
+    padding: 15px 20px; 
+} 
+  /* Navbar styling */
+.navbar { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+} 
+  /* Logo styling */
+.logo { 
+    display: flex; 
+    flex-direction: column; 
+} 
+  /* Logo paragraph styling */
+.logo p { 
+    margin: 0; 
+    font-size: 1.2em; 
+    color: #4caf50; 
+} 
+  /* Navigation styling */
+nav ul { 
+    list-style: none; 
+    display: flex; 
+    margin: 0; 
+    padding: 0; 
+} 
+  /* Navigation list item styling */
+nav li { 
+    margin-right: 20px; 
+} 
+  /* Navigation link styling */
+nav a { 
+    text-decoration: none; 
+    color: #fff; 
+    font-weight: bold; 
+    font-size: 1.2em; 
+    transition: color 0.3s ease-in-out; 
+} 
+  /* Navigation link hover effect */
+nav a:hover { 
+    color: #ffd700; 
+} 
+  /* Search bar styling */
+.search { 
+    display: flex; 
+    align-items: center; 
+} 
+  /* Search input styling */
+.search input { 
+    padding: 8px; 
+    margin-right: 10px; 
+    border: none; 
+    border-radius: 5px; 
+} 
+  /* Search button styling */
+.search button { 
+    background-color: #ffd700; 
+    color: #333; 
+    border: none; 
+    padding: 8px 15px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease-in-out; 
+} 
+  /* Search button hover effect */
+.search button:hover { 
+    background-color: #ffc107; 
+} 
+  
+
+    /* Adjusting navbar layout for smaller screens */
+    .navbar { 
+        flex-direction: column; 
+        align-items: flex-start; 
+    } 
+    /* Adjusting margin for navigation on smaller screens */
+  
+    nav { 
+        margin-top: 10px; 
+    } 
+  /* Adjusting navigation list layout for smaller screens */
+    nav ul { 
+        flex-direction: column; 
+    } 
+   /* Adjusting margin for navigation list items on smaller screens */
+    nav li { 
+        margin-right: 0; 
+        margin-bottom: 10px; 
+    } 
+  /* Adjusting margin for search bar on smaller screens */
+    .search { 
+        margin-top: 10px; 
+    } 
+
+  /* Main content container styling */
+.container { 
+    display: grid; 
+    gap: 1rem; 
+    min-height: 100vh; 
+} 
+ /* Product category styling */
+.category { 
+    display: grid; 
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Adjusted minimum width to 300px */
+    gap: 1rem; 
+} 
+  /* Product styling */
+.product { 
+    position: relative; 
+    max-height: auto; 
+    border: 1px solid #ddd; 
+    padding: 15px; 
+    text-align: center; 
+    display: flex; 
+    flex-direction: column; 
+    line-height: 1.5rem; 
+    transition: box-shadow 0.3s ease-in-out; 
+} 
+  /* Product hover effect */
+.product:hover { 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    cursor: pointer; 
+} 
+  /* Product image styling */
+img { 
+    max-width: 100%; 
+    height: 200px; 
+    object-fit: fill; 
+    overflow: hidden; 
+    transition: transform 0.3s ease-in-out; 
+    margin-bottom: 1rem; 
+} 
+  /* Product image hover effect */
+.product:hover img { 
+    transform: scale(1.05); 
+} 
+  /* Product button container styling */
+.productbtns button { 
+    margin-top: 1rem; 
+    cursor: pointer; 
+    background-color: #4caf50; 
+    color: white; 
+    border: none; 
+    padding: 10px 15px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease-in-out; 
+    margin-bottom: 1rem; 
+    cursor: pointer; 
+} 
+  /* Product button hover effect */
+.productbtns button:hover { 
+    background-color: #ffc107; 
+} 
+  /* Quantity input container styling */
+.qyt { 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+} 
+  /* Quantity input styling */
+.qyt input { 
+    width: 30px; 
+    border-radius: 0.1rem; 
+    border: 0.1rem solid #4caf50; 
+    transition: border-color 0.3s ease-in-out; 
+} 
+  /* Price styling */
+.price { 
+    color: #ffc107; 
+    font-weight: 600; 
+    margin: 0 0; 
+} 
+  /* Quantity input and label spacing */
+.qyt input, 
+.qyt label { 
+    margin: 0px 10px; 
+} 
+Product title styling */
+.product h3 { 
+    margin: 0 0; 
+} 
+  /* Image placeholder styling */
+.image-placeholder { 
+    width: 100%; 
+    height: 200px; 
+    margin-bottom: 1rem; 
+    overflow: hidden; 
+    position: relative; 
+    cursor: pointer; 
+    transition: transform 0.3s ease-in-out; 
+} 
+  /* Image placeholder hover effect */
+.image-placeholder:hover { 
+    transform: scale(1.05); 
+} 
+  /* Footer styling */
+footer { 
+    background-color: #333; 
+    color: #fff; 
+    text-align: center; 
+    padding: 10px; 
+    position: relative; 
+    bottom: 0; 
+    width: auto; 
+    padding: 1rem 0rem; 
+} 
+  /* Footer paragraph styling */
+footer p { 
+    margin: 0; 
+    font-size: 0.9em; 
+} 
+  
+
+   /* Adjusting font size for footer on smaller screens */ 
+    footer { 
+        font-size: 0.8em; 
+    } 
+

@@ -1,0 +1,107 @@
+
+/* footer css*/
+.footer
+{
+    background:whitesmoke;
+}
+
+.footer .box-container
+{
+   border: opx solid;
+   display: grid;
+   grid-template-columns: repeat(auto-fit,minmax(16px, 1fr));
+   gap:24px;
+}
+
+.footer .box-container .box h2
+{
+  font-size: 25px;
+  color:black;
+  padding:16px 0;
+  
+}
+
+.footer .box-container .box h2 a
+{
+  color:green;
+  
+}
+.footer .box-container .box .links
+{
+  display:block;
+  font-size: 15px;
+  color: var(--light-color);
+  padding: 16px 0;
+}
+
+.footer .box-container .box .links i
+{
+   color:green;
+   padding-right: 8px;
+}
+.footer .box-container .box .links:hover i
+{
+    padding-right: 32px;
+
+}
+
+.footer .box-container .box p
+{
+ 
+  font-size: 15px;
+  line-height:24px;
+  padding: 16px 0;
+}
+
+
+.footer .box-container .box .share a
+{  font-size: 20px;
+   border: 0px solid;
+   height:60px;
+   width:60px;
+   line-height: 64px ;
+   border-radius: 8px;
+   color: black;
+   margin-left: 3.2px;
+   background:#eee;
+   text-align: center;
+
+}
+.footer .box-container .box .share a:hover
+{
+    background: green;
+    color:white;
+}
+
+.footer .box-container .box .email
+{
+    margin:11px 0;
+    padding: 16px;
+    border-radius:#eee;
+    font-size: 15px;
+    color: black;
+    text-transform: none;
+
+}
+.footer .box-container .box .payment-img
+{
+    margin: 30px;
+    height: 30%;
+}
+
+.footer .credit
+{
+    text-align: center;
+    margin-top: 32px;
+    padding:16px;
+    padding-top: 30px;
+    font-size: 15px;
+    color: black;
+    
+
+}
+.footer .credit span
+{
+    color:green;
+}
+

@@ -1,0 +1,989 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap')
+
+
+/* Root variables */
+:root{
+   --green: green;
+   --black: black;
+   --light-color: #666;
+   --box-shadow: 8px 16px rgba(0,0,0.1);
+   --border: 32px solid rgba(0, 0, 0, 0.679);
+   --outline: 16px solid rgbba(0,0,0.1);
+}
+
+
+/* Global styles */
+*{
+    
+    
+    font-family: "Open Sans", sans-serif;
+    margin:o;
+    padding:0;
+    box-sizing: border-box;
+    outline:none;
+    border:none;
+    text-decoration: none;
+    text-transform:capitalize;
+    transition: all .3s linear;
+}
+
+/* HTML styles */
+
+html
+{
+ font-size: 70%;
+ overflow-x: hidden;
+ scroll-behavior: smooth;
+ scroll-padding-top:128px;
+ 
+}
+
+/* Body styles */
+
+body
+{
+    background:#eee;
+
+}
+
+/* Styles for home section */
+
+section
+{
+   padding: 32px 9%;
+}
+
+
+/* Styles for headig */
+
+.heading
+{
+    text-align: center;
+    padding: 32px 0;
+    padding-bottom: 48px;
+    font-size: 56px;
+    color:  var(--black);
+
+}
+
+/* Styles for heading span */
+
+.heading span
+{
+    background:orange;
+    color: #fff;
+    display: inline;
+    padding: 1.6px 5%;
+    clip-path: polygon(100% 0, 93% 50%, 100% 99%,0% 100%,7% 50%,0% 0%);
+
+
+}
+
+
+/* Styles for buttons */
+.btn
+{
+    border: 3.2px solid var(--black);
+    margin-top: 16px;
+    display: inline-block;
+    padding: 20px 30px;
+    font-size: 25px;
+    border-radius: 8px;
+    background: none;
+    
+    
+    
+}
+
+
+/* Styles for home section */
+
+.home
+ {
+    border: px solid;
+    display: flex;
+    justify-content: center;
+    background-image: url(/website/image/homepagegrocerypic.png) ;
+    background-position: center;
+    background-size: cover;
+    padding-top: 180px;
+    padding-bottom: 128px;
+     
+
+    
+}
+
+/* Styles for home content */
+.home .content
+{
+    border:0px solid;
+    text-align: center;
+    width: 1600px;
+
+}
+
+
+
+/* Styles for home content h1 */
+
+.home .content h1
+{
+   color:green;
+}
+
+
+
+
+/* Styles for home content p */
+
+.home .content p
+{
+    color: var(--light-color);
+    font-size: 8px;
+    line-height: 1.8;
+}
+
+
+
+
+/* Styles for header */
+
+.header
+{
+   border:  0px solid;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index:2000;
+    display : flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 10px 10%;
+    background:whitesmoke;
+    box-shadow: 5px 10px 18px #888888; 
+    
+}
+
+
+/* Styles for logo in header */
+
+.header .logo
+{
+    font-size: 22px;
+    font-weight: bolder;
+    color:green;
+    
+}
+
+/* Styles for header logo */
+.header .logo  
+{
+    color: green;
+   
+    
+    
+}
+
+
+/* Styles for header navbar a */
+.header .navbar a
+{
+    font-size: 25px;
+    margin:16px;
+    color: black;
+    
+    
+
+}
+
+/* Styles for header navbar a: hover */
+
+.header .navbar a:hover
+{
+    
+    color:green;
+    
+}
+/* Styles for icon*/
+ .icons  {
+    font-size: 24px; /* Adjust icon size as needed */
+    margin-right: -3%; /* Adjust spacing between icons as needed */
+    cursor: pointer;
+    color: black; /* Adjust icon color as needed */
+    display: flex;
+}
+ 
+
+/* Styles for header icons div*/
+
+.header .icons div
+{
+    border: px solid;
+    height: 50px;
+    width: 45px;
+    line-height: 72px;
+    border-radius:8px;
+    background:#eee;
+    color: black;
+    font-size: 25px;
+    line-height: 50px;
+    margin-right: 4px;
+    text-align: center;
+    cursor: pointer;
+    
+    
+    
+
+}
+
+
+/* Styles for header icons div: hover*/
+
+.header .icons div:hover
+{
+    background-color:green;
+    color: white;
+    
+
+/* Styles for header menu-btn*/
+}
+#menu-btn
+{
+    display: none;
+}
+
+
+/* Styles for search form */
+.header .search-form
+{
+    border: px solid;
+    position: absolute;
+    top: 110%;
+    right:  -110%;
+    width: 400px;
+    height: 40px;
+    background:lightgrey;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    box-shadow: 5px 10px 18px #888888; 
+    
+}
+
+/* Active styles for search form */
+.header .search-form.active
+{
+   right: 4px;
+   transition: .4s linear;
+   
+}
+
+
+/* Styles for search form input */
+.header .search-form input
+{
+    height: 100%;
+    width: 100%;
+    background: none;
+    font-size: 20px;
+    padding: 25px;
+    color: var(--black);
+    
+  
+    
+}
+/* Styles for  header .search-form.active label */
+.header .search-form label
+{
+    font-size: 20px;
+    padding-right: 32px;
+    cursor: pointer;
+    color: black;
+
+
+}
+
+/* Styles for search form label */
+
+.header .search-form label:hover
+{
+    color: green;
+    
+}
+
+
+/* Styles for login form */
+
+.header .login-form 
+{
+  border: 0px solid;
+  position: absolute;
+  color:black;
+  top: 150%;
+  right:-140%;
+  text-align: center;
+  font-size: large;
+  box-shadow: 5px 10px 18px #888888;
+  border-radius: 20px;
+  width:255px
+  
+}
+/* Active styles for login form */
+.login-form.login-form.active
+{
+right: 32px;
+transition: .4s linear;
+}
+/* Default styles for login form */
+
+.login-form
+{
+    background-color: white;
+    
+}
+
+/* Styles for login form buttons */
+
+.login-form .box .btn
+{
+    
+    top: 110%;
+    right: 32px;
+
+   
+
+}
+/* Styles for login form box */
+.login-form .box
+{
+    font-size: 18px;
+    padding: 9px  1px;
+    background-color: whitesmoke;
+    margin: 9px;
+      
+}
+
+ /* Styles for login form paragraph */   
+ .login-form p
+{
+     font-size: 13px;
+     padding:2px;
+     
+}
+/* Styles for login form links */
+.login-form p a{
+    font-size: 13px;
+    color:green;
+    text-decoration: underline;
+}
+
+
+
+/* Styles for login form buttons */
+
+.login-form .btn
+{
+    
+    background:none;
+    border:1px solid;
+    padding: 10px 30px;
+    margin:32px;
+    border-radius: 10px;
+    color:black;
+}
+
+/* Hover styles for login form buttons */
+.login-form .btn:hover
+{
+    background:green;
+    color: white;
+    
+}
+
+
+/* Styles for stars */
+
+.stars{
+    color:gold;
+    font-size:20px;
+}
+
+/* Default button styles */
+
+.btn
+{
+    
+    background-color: green; 
+    padding: 10px 15px;
+    color:white;
+    
+}
+
+
+/* Hover styles for buttons */
+
+.btn:hover
+{
+    background-color:orange;
+}
+
+
+
+
+/* Body styles */
+
+body { 
+    margin: 0; 
+    font-family: 'Arial', sans-serif; 
+} 
+  /* Header styles */
+header { 
+    background-color: #333; 
+    color:#fff;
+    padding: 15px 20px; 
+    
+} 
+/* Styles for headings */
+.heading
+{
+    text-align: center;
+    padding: 32px; 
+    
+}
+
+
+  /* Navbar styles */
+.navbar { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    position: relative;
+} 
+
+
+/* Logo styles */
+  
+.logo { 
+    display: flex; 
+    flex-direction: column; 
+} 
+  
+/* Logo paragraph styles */
+.logo p { 
+    margin: 0; 
+    font-size: 8px; 
+    color: #4caf50; 
+} 
+  /* Navigation list styles */
+nav ul { 
+    list-style: none; 
+    display: flex; 
+    margin: 0; 
+    padding: 0; 
+} 
+  /* Navigation item styles */
+nav li { 
+    margin-right: 20px; 
+} 
+  /* Navigation link styles */
+nav a { 
+    text-decoration: none; 
+    color: #fff; 
+    font-weight: bold; 
+    font-size: 18px; 
+    transition: color 0.3s ease-in-out; 
+} 
+  /* Hover styles for navigation links */
+nav a:hover { 
+    color: #ffd700; 
+} 
+  /* Search styles */
+.search { 
+    display: flex; 
+    align-items: center; 
+} 
+  /* Search input styles */
+.search input { 
+    padding: 8px; 
+    margin-right: 10px; 
+    border: none; 
+    border-radius: 5px; 
+} 
+  /* Search button styles */
+.search button { 
+    background-color: #ffd700; 
+    color: #333; 
+    border: none; 
+    padding: 8px 15px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease-in-out; 
+} 
+  /* Hover styles for search button */
+.search button:hover { 
+    background-color: #ffc107; 
+} 
+
+
+
+
+
+
+
+
+/* Navbar styles */
+    .navbar { 
+        
+        align-items: flex-start; 
+    } 
+  
+
+
+    /* Navigation styles */
+    nav { 
+        margin-top: 10px; 
+    } 
+  /* Navigation list styles */
+    nav ul { 
+        flex-direction: column; 
+    } 
+  /* Navigation item styles */
+    nav li { 
+        margin-right: 0; 
+        margin-bottom: 10px; 
+    } 
+    /* Search styles */
+    .search { 
+        margin-top: 10px; 
+    } 
+
+  /* Container styles */
+.container { 
+    display: grid; 
+    gap: 16px; 
+    min-height: 100vh; 
+} 
+  /* Category styles */
+.category { 
+    display: grid; 
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Adjusted minimum width to 300px */
+    gap: 16px; 
+} 
+  /* Product styles */
+.product { 
+    position: relative; 
+    max-height: auto; 
+    border: 1px solid #ddd; 
+    padding: 15px; 
+    text-align: center; 
+    display: flex; 
+    flex-direction: column; 
+    line-height: 18px; 
+    transition: box-shadow 0.3s ease-in-out; 
+} 
+  /* Hover styles for product */
+.product:hover { 
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  */
+    cursor: pointer; 
+    box-shadow: 1px 1px 10px 4px green;
+} 
+ /* Image styles */ 
+img { 
+    max-width: 100%; 
+    height: 200px; 
+    object-fit: fill; 
+    overflow: hidden; 
+    transition: transform 0.3s ease-in-out; 
+    margin-bottom: 16px; 
+} 
+  /* Hover styles for image */
+.product:hover img { 
+    transform: scale(1.05); 
+} 
+  /* Product buttons styles */
+.productbtns button { 
+    margin-top: 16px; 
+    cursor: pointer; 
+    background-color:green; 
+    color: white; 
+    border: none; 
+    padding: 10px 14px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 15px; 
+    border-radius: 6px; 
+    transition: background-color 0.3s ease-in-out; 
+    margin-bottom: 16px; 
+    cursor: pointer; 
+} 
+/* Hover styles for product buttons */
+.productbtns .btn
+{
+    margin-top: 16px; 
+    cursor: pointer; 
+    background-color:green; 
+    color: white; 
+    border: none; 
+    padding: 10px 14px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 15px; 
+    border-radius: 6px; 
+    transition: background-color 0.3s ease-in-out; 
+    margin-bottom: 16px; 
+    cursor: pointer; 
+}
+/* Hover styles for product buttons */
+.productbtns .btn:hover
+{
+    background-color: #ffc107; 
+}
+
+ /* Hover styles for product buttons */ 
+.productbtns button:hover { 
+    background-color: #ffc107; 
+} 
+  /* Quantity styles */
+.qyt { 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+} 
+  /* Quantity input styles */
+.qyt input { 
+    width: 30px; 
+    border-radius: 1.6px; 
+    border: 1.6px solid #4caf50; 
+    transition: border-color 0.3s ease-in-out; 
+} 
+  /* Price styles */
+.price  { 
+    color: var(--light-color); 
+    font-weight: 600; 
+    margin: 0 0; 
+} 
+/* Stars styles */
+.stars i
+{
+    font-size: 15px;
+    color:#ffc107;
+}
+
+/* price styles */
+.price
+{
+    color:black;
+}
+
+
+/* quantity label styles*/
+
+.qyt label { 
+    margin: 0px 10px; 
+} 
+  /* Product heading styles */
+.product h3 { 
+    margin: 0 0; 
+} 
+  /* Image placeholder styles */
+.image-placeholder { 
+    width: 100%; 
+    height: 200px; 
+    margin-bottom: 16px; 
+    overflow: hidden; 
+    position: relative; 
+    cursor: pointer; 
+    transition: transform 0.3s ease-in-out; 
+} 
+  /* Hover styles for image placeholder */
+.image-placeholder:hover { 
+    transform: scale(1.05); 
+} 
+
+/* Features container styles */
+.features .box-container
+{
+   border: px solid;
+   display:grid;
+   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+   gap: 8px;
+ 
+}
+/* Features box styles */
+.features .box-container .box{
+    padding: 48px 32px;
+    background:whitesmoke;
+    outline:var(--outline);
+    outline-offset: -16px;
+    text-align: center;
+    box-shadow:  5px 10px 18px #888888; ;
+   
+
+}
+/* Hover styles for features box */
+.features .box-container .box:hover
+{
+   
+   outline-offset: 0rem;
+   box-shadow: 1px 1px 10px 4px green;
+  
+}
+/* Features box image styles */
+.features .box-container .box  img{
+    margin: 16px;
+    height: 200px;
+   
+}
+/* Features box heading styles */
+.features .box-container .box h3
+{
+    font-size: 20px;
+    line-height: 1.8;
+    color: var(--light-color)
+    
+}
+
+/* Review container styles */
+
+
+.review .review-slider
+{
+    border:0px solid;
+    padding: 16px;
+}
+/* Review box styles */
+.review .review-slider .box
+{
+    border: px solid red;
+    background:#fff;
+    border-radius: 8px;
+    text-align: center;
+    padding: 48px 32px;
+    outline-offset:-16px;
+    outline:  1rem solid rgbba(0,0,0.1);
+    box-shadow: 5px 10px 18px #888888; 
+    transition:.2s linear;
+   
+
+}
+/* Hover styles for review box */
+.review .review-slider .box:hover
+{
+    box-shadow: 1px 1px 10px 4px green;
+}
+/* Review box image styles */
+.review .review-slider .box img
+{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    
+    
+}
+/* Review box paragraph styles */
+.review .review-slider .box p
+{
+    padding: 16px 0;
+    line-height: 1.8;
+    color:light color;
+    font-size:12px;
+
+}
+/* Review box heading styles */
+.review .review-slider .box h3
+{
+    padding-bottom: 8px;
+    color:light color;
+    font-size: 25px;
+}
+/* Review box stars styles */
+.review .review-slider .box .stars i{
+    color: gold;
+    font-size:27px;
+   
+   
+}
+
+  
+/* Footer styles */
+.footer
+{
+    background:whitesmoke;
+}
+/* Footer box container styles */
+.footer .box-container
+{
+   border: opx solid;
+   display: grid;
+   grid-template-columns: repeat(auto-fit,minmax(16px, 1fr));
+   gap:24px;
+}
+/* Footer box heading styles */
+.footer .box-container .box h2
+{
+  font-size: 25px;
+  color:black;
+  padding:16px 0;
+  
+}
+/* Footer box heading link styles */
+.footer .box-container .box h2 a
+{
+  color:green;
+  
+}
+/* Footer box links styles */
+.footer .box-container .box .links
+{
+  display:block;
+  font-size: 15px;
+  color: var(--light-color);
+  padding: 16px 0;
+}
+/* Footer box link icon styles */
+.footer .box-container .box .links i
+{
+   color:green;
+   padding-right: 8px;
+}
+/* Hover styles for footer box link icon */
+.footer .box-container .box .links:hover i
+{
+    padding-right: 32px;
+
+}
+/* Footer box paragraph styles */
+.footer .box-container .box p
+{
+ 
+  font-size: 15px;
+  line-height:24px;
+  padding: 16px 0;
+}
+/* Footer box share link styles */
+
+.footer .box-container .box .share a
+{  font-size: 20px;
+   border: 0px solid;
+   height:60px;
+   width:60px;
+   line-height: 64px ;
+   border-radius: 8px;
+   color: black;
+   margin-left: 3.2px;
+   background:#eee;
+   text-align: center;
+
+}
+/* Hover styles for footer box share link */
+.footer .box-container .box .share a:hover
+{
+    background: green;
+    color:white;
+}
+/* Footer box email styles */
+.footer .box-container .box .email
+{
+    margin:11px 0;
+    padding: 16px;
+    border-radius:#eee;
+    font-size: 15px;
+    color: black;
+    text-transform: none;
+
+}
+/* Footer box payment image styles */
+.footer .box-container .box .payment-img
+{
+    margin: 30px;
+    height: 30%;
+    width: 350px;
+    
+    
+}
+/* Footer credit styles */
+.footer .credit
+{
+    text-align: center;
+    margin-top: 32px;
+    padding:16px;
+    padding-top: 30px;
+    font-size: 15px;
+    color: black;
+    
+
+}
+/* Footer credit span styles */
+.footer .credit span
+{
+    color:green;
+}
+
+
+  /* Styling for the footer section */
+ 
+    .footer
+     { 
+        
+       text-align: center;
+
+    } 
+
+/* Styling for phone icon */
+    .fa-phone
+    {
+        margin-left: -20%;
+    }
+    /* Styling for envelope icon */
+    .fa-envelope
+    {
+        margin-left: 18%;
+    }
+    /* Styling for map marker icon */
+    .fa-map-marker
+    {
+        margin-left: 12%;
+    }
+
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    

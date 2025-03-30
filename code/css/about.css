@@ -1,0 +1,951 @@
+/* Resetting default margin, padding, and font for all elements */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+  }
+  /* Styling for the body */
+  body {
+  
+    padding: 0;
+    font-size: 100%;
+     background-color: rgb(83, 146, 79); 
+     
+     
+  
+  }
+  
+  /* Styling for buttons */
+   button {
+     padding: 8px 15px;
+     background-color: #5a585a;
+     color: rgb(249, 247, 247);
+     text-align: center;
+     font-size: 14px;
+     border-radius: 4px;
+     border: none;
+     cursor: pointer;
+     transition: box-shadow 0.3s, transform 0.3s;
+   }
+   /* Styling for buttons hover */
+   button:hover {
+     box-shadow: 0 8px 16px rgba(14, 14, 14, 0.919);
+     transform: scale(1.05);
+   }
+/* Styling for headings */
+h1{
+    margin-left: -5%;
+    margin-top: 15%;
+    font-size: 450%;
+    text-align: center;
+    
+}
+/* Styling for profile cards */
+.profile {
+    width: 250px;
+    height: 350px;
+    background-color: #cfcccf;
+    color: #0a0a0a;
+    margin: px;
+    margin-top: 10%;
+    float: left;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    transition: transform.2s;
+    
+    
+    
+}
+/* Styling for profile cards hover */
+.profile:hover {
+    transform: scale(1.1);
+}
+/* Styling for profile cards paragraph */
+.profile a {
+    color: #333333dd;
+    text-decoration: none;
+}
+/* Styling for profile cards  image*/
+.profile img {
+    width: 100%;
+    height: auto;
+    border-radius: 100%;
+    margin-bottom: -1px;
+    transition: transform.2s;
+}
+/* Styling for profile cards image hover */
+.profile img:hover {
+    transform: scale(1.2);
+}
+
+
+
+ 
+/* Styling for profile cards */
+#text {
+  margin-top: -15%;
+  margin-right: 0%;
+ margin-left: 35%;
+  color: rgb(31, 31, 31);
+}
+
+/* Styling for tables */
+table {
+  margin: 20px auto;
+}
+
+td {
+  padding: 10px;
+}
+
+/* Hover effect for profile cards */
+
+.profile:hover{
+box-shadow: rgba(252, 3, 3, 0.951) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+ 
+}
+/* Additional global styling */
+*{
+    margin-left: 5%;
+}
+/* Styling for back arrow button */
+.back-arrow {
+    position: fixed;
+    top: 20px;
+    left: 10px;
+    padding: 5px;
+    background-color: rgba(207, 117, 231, 0.537);
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(120, 8, 145, 0.2);
+    text-decoration: none;
+    color: #fcfafa;
+     margin-right: 5%;
+    display: flex;
+    align-items: center;
+  }
+  /* Styling for back icon */
+  .back-icon {
+    font-size: 20px;
+    margin-right: 5px;
+  }
+  
+ 
+/* Styling for person info section */
+.person-info {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+  }
+  /* Styling for profile photo */
+  .photo {
+
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    margin-right: 20px;
+    margin-top: 10px;
+    border-radius: 50%;
+    box-shadow: rgba(72, 2, 68, 0.585) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;    transform: scale(1.01);
+  }
+  /* Styling for person name */
+.name {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 200px;
+    margin-bottom: 0.5rem;
+    margin-right: 20%;
+  }
+  /* Styling for contribution text */
+  .contribution {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    text-align: justify;
+    margin-right: 40%;
+    margin-top: 10%;
+  }
+ /* Styling for profile images */
+  .profile img{
+    width: 200px;
+    height: 300px;
+  }
+  /* Styling for feedback form */
+  .Feedback Form{
+    margin-top: 50%;
+    margin-left: 22%;
+   text-align: center;
+   margin-right: 35%;
+   background-color: green;
+   margin-bottom: 20%;
+   border-radius: 10px;
+   
+  }
+  .Feedback  label, input{
+    margin-left: 0%;
+    padding: 10px;
+  }
+  textarea{
+    width: 350px;
+    height:190px;
+   
+  
+  }
+  .Feedback Form h1{
+    margin-right: 4%;
+    margin-left: 3%;
+    font-size: 300x;
+    
+  }
+  .Feedback Form button{
+    font-size: 150%;
+    background-color: #ffc107;
+   margin-bottom: 10%;
+   
+  }
+  .Feedback  label
+  {
+    font-size: 15px;
+  }
+  /* Styling for message section */
+.message label{
+  margin-left: -70%
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Root variables for colors, shadows, etc. */
+
+:root{
+  --green: green;
+  --black: black;
+  --light-color: #666;
+  --box-shadow: 0.5rem 1rem rgba(0,0,0.1);
+  --border: 2rem solid rgba(0, 0, 0, 0.679);
+  --outline: 1rem solid rgbba(0,0,0.1);
+}
+
+
+/* Global styling */
+
+*{
+    
+    
+  font-family: "Open Sans", sans-serif;
+  margin:o;
+  padding:0;
+  box-sizing: border-box;
+  outline:none;
+  border:none;
+  text-decoration: none;
+  text-transform:capitalize;
+  transition: all .3s linear;
+}
+
+
+
+/* Styling for HTML */
+
+html
+{
+ font-size: 70%;
+ overflow-x: hidden;
+ scroll-behavior: smooth;
+ scroll-padding-top:8rem;
+ 
+}
+
+
+
+/* Styling for sections */
+ section
+{
+   padding: 30px -1%;
+} 
+
+ 
+/* Styling for the heading section */
+
+.heading
+{
+    text-align: center;
+    padding: 32px 0;
+    padding-bottom: 48px;
+    font-size: 56px;
+    color:  var(--black);
+
+}
+
+
+
+
+
+
+
+
+/* Styling for the header section */
+.header
+{
+   border:  0px solid;
+    position:fixed;
+    top:0;
+    left:-100px;
+    right:0;
+    z-index:2000;
+    display : flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 10px 10%;
+    background:whitesmoke;
+    box-shadow: 5px 10px 18px #888888; 
+    
+}   
+
+
+/* Styling for the logo */
+
+.header .logo
+{
+    font-size: 25px;
+    font-weight: bolder;
+    color:green;
+    
+}
+
+/* Styling for the logo */
+.header .logo  
+{
+    color: green;
+   
+    
+    
+}
+
+
+/* Styling for the navigation links */
+.header .navbar a
+{
+    font-size:24px;
+    margin:8px;
+    color: black;
+    
+    
+
+}
+
+
+/* Styling for navigation links when hovered */
+.header .navbar a:hover
+{
+    
+    color:green;
+    
+}
+/* Styling for icons */
+ .icons  {
+   
+ 
+  font-size: 25px; 
+  margin-right: -3%; 
+  cursor: pointer;
+  color: black; 
+  display: flex;
+
+
+    
+}
+ 
+
+
+
+
+
+
+  
+/* Styling for individual icon divs */
+
+.header .icons div
+{
+  
+  border: px solid;
+  height: 50px;
+  width: 50px;
+  line-height: 72px;
+  border-radius:8px;
+  background:#eee;
+  color: black;
+   font-size: 25px; 
+  line-height: 50px;
+  margin-right: 4px;
+  text-align: center;
+  cursor: pointer;
+  
+    
+    
+    
+
+}
+
+
+/* Styling for icons when hovered */
+.header .icons div:hover
+{
+    background-color:green;
+    color: white;
+    
+
+
+}
+/* Styling for the menu button */
+#menu-btn
+{
+    display: none;  /* Initially hidden */
+}
+
+/* Styling for the search form */
+
+.header .search-form
+{
+    border: px solid;
+    position: absolute;
+    top: 110%;
+    right:  -110%;
+    width: 400px;
+    height: 40px;
+    background:lightgrey;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    box-shadow: 5px 10px 18px #888888; 
+    
+}
+
+
+
+
+/* Styling for the active search form */
+
+.header .search-form.active
+{
+   right: 4px;
+   transition: .4s linear;
+   
+}
+
+
+/* Styling for the search input */
+.header .search-form input
+{
+    height: 100%;
+    width: 100%;
+    background: none;
+    font-size: 20px;
+    padding: 25px;
+    color: var(--black);
+    
+  
+    
+}
+/* Styling for the search label */
+.header .search-form label
+{
+    font-size: 20px;
+    padding-right: 32px;
+    cursor: pointer;
+    color: black;
+
+
+}
+
+
+
+/* Styling for the search label when hovered */
+
+.header .search-form label:hover
+{
+    color: green;
+    
+}
+
+/* Styling for the login form */
+
+.header .login-form 
+{
+  border: 0px solid;
+  position: absolute;
+  color:black;
+  top: 150%;
+  right:-140%;
+  text-align: center;
+  font-size: large;
+  box-shadow: 5px 10px 18px #888888;
+  border-radius: 20px;
+  width:255px
+  
+}
+/* Styling for the active login form */
+.login-form.login-form.active
+{
+right: 32px;
+transition: .4s linear;
+}
+
+/* Additional styling for the login form */
+.login-form
+{
+    background-color: white;
+    
+}
+
+
+
+/* Styling for login form buttons */
+.login-form .box .btn
+{
+    
+    top: 110%;
+    right: 32px;
+
+    
+    
+
+}
+/* Styling for login form boxes */
+.login-form .box
+{
+    font-size: 18px;
+    padding: 9px  1px;
+    background-color: whitesmoke;
+    margin: 9px;
+    
+    
+    
+}
+  /* Styling for login form paragraphs */  
+ .login-form p
+{
+     font-size: 13px;
+     padding:2px;
+     
+}
+/* Styling for login form links */
+.login-form p a{
+    font-size: 13px;
+    color:green;
+    text-decoration: underline;
+}
+
+
+
+
+/* Styling for login form buttons */
+.login-form .btn
+{
+    
+    background:none;
+    border:1px solid;
+    padding: 10px 30px;
+    margin:32px;
+    border-radius: 10px;
+    color:black;
+}
+
+/* Styling for login form buttons when hovered */
+.login-form .btn:hover
+{
+    background:green;
+    color: white;
+    
+}
+
+/* Basic styling for the body */
+body { 
+  margin: 0; 
+  font-family: 'Arial', sans-serif; 
+} 
+/* Styling for the header */
+header { 
+  background-color: #333; 
+  color:#fff;
+  padding: 15px 20px; 
+  
+} 
+/* Styling for the heading */
+.heading
+{
+  text-align: center;
+  padding: 32px; 
+  
+}
+/* Styling for the heading span */
+.heading span
+{
+    background:orange;
+    color: #fff;
+    display: inline;
+    padding: 0.1rem 5%;
+    clip-path: polygon(100% 0, 93% 50%, 100% 99%,0% 100%,7% 50%,0% 0%);
+
+
+}
+
+
+/* Styling for the navbar */
+.navbar { 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  position: relative;
+} 
+
+
+
+/* Styling for the logo section */
+.logo { 
+  display: flex; 
+  flex-direction: column; 
+} 
+/* Styling for the logo text */
+.logo p { 
+  margin: 0; 
+  font-size: 1.2em; 
+  color: #4caf50; 
+} 
+/* Styling for the navigation menu */
+nav ul { 
+  list-style: none; 
+  display: flex; 
+  margin: 0; 
+  padding: 0; 
+} 
+/* Styling for navigation menu items */
+nav li { 
+  margin-right: 20px; 
+} 
+/* Styling for navigation links */
+nav a { 
+  text-decoration: none; 
+  color: #fff; 
+  font-weight: bold; 
+  font-size: 1.2em; 
+  transition: color 0.3s ease-in-out; 
+} 
+/* Styling for navigation links when hovered */
+nav a:hover { 
+  color: #ffd700; 
+} 
+/* Styling for the search section */
+.search { 
+  display: flex; 
+  align-items: center; 
+} 
+/* Styling for the search input field */
+.search input { 
+  padding: 8px; 
+  margin-right: 10px; 
+  border: none; 
+  border-radius: 5px; 
+} 
+/* Styling for the search button */
+.search button { 
+  background-color: #ffd700; 
+  color: #333; 
+  border: none; 
+  padding: 8px 15px; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease-in-out; 
+} 
+/* Styling for the search button when hovered */
+.search button:hover { 
+  background-color: #ffc107; 
+} 
+
+
+/* Styling for the navbar */
+
+  .navbar { 
+      
+      align-items: flex-start; 
+  } 
+/* Styling for the navigation menu */
+  nav { 
+      margin-top: 10px; 
+  } 
+/* Styling for the navigation menu */
+  nav ul { 
+      flex-direction: column; 
+  } 
+/* Styling for navigation menu items */
+  nav li { 
+      margin-right: 0; 
+      margin-bottom: 10px; 
+  } 
+/* Styling for the search section */
+  .search { 
+      margin-top: 10px; 
+  } 
+  
+
+
+
+/* Styling for buttons */
+  .btn
+  {
+      
+      background-color: green; 
+      padding: 10px 15px;
+      color:white;
+      
+  }
+  
+  
+  
+  /* Styling for buttons when hovered */
+   .btn:hover
+  {
+      background-color:orange;
+  }
+   
+  
+  /* Styling for buttons */
+  .btn
+  {
+      border: rem solid var(--black);
+      margin-top: 16px;
+      display: inline-block;
+      padding:16px 50px;
+      font-size: 18px;
+      border-radius: 8px;
+      margin-left: -9%;
+      height: 45px;
+      
+      
+      
+  }
+  
+
+/* Styling for the footer section */
+.footer
+{
+    background: whitesmoke;
+    margin-left:-150px;
+    border: px solid;
+    
+    
+    
+}
+/* Styling for the box container within footer */
+.footer .box-container
+{
+   border: px solid;
+   display: grid;
+   grid-template-columns: repeat(auto-fit,minmax(16px, 1fr));
+   gap:24px;
+   
+}
+/* Styling for box headings within footer */
+.footer .box-container .box h2
+{
+  font-size: 25px;
+  color:black;
+  padding:16px 0;
+  border: px solid
+  
+  
+}
+/* Styling for box headings within footer */
+.footer .box-container .box h2 a
+{
+  color:green;
+  
+}
+/* Styling for links within footer */
+.footer .box-container .box .links
+{
+  display:block;
+  font-size: 15px;
+  color: black;
+  padding: 16px 0;
+}
+/* Styling for icons within footer links */
+.footer .box-container .box .links i
+{
+   color:green;
+   padding-right: 8px;
+}
+/* Styling for icons within footer links when hovered */
+.footer .box-container .box .links:hover i
+{
+    padding-right: 32px;
+
+}
+/* Styling for paragraphs within footer */
+.footer .box-container .box p
+{
+ 
+  font-size: 15px;
+  line-height:24px;
+  padding: 16px 0;
+}
+
+/* Styling for social media share icons within footer */
+.footer .box-container .box .share a
+{  font-size: 20px;
+   border: 0px solid;
+   height:60px;
+   width:60px;
+   line-height: 64px ;
+   border-radius: 8px;
+   color: black;
+   margin-left: 3.2px;
+   background:#eee;
+   text-align: center;
+
+}
+/* Styling for social media share icons within footer */
+.footer .box-container .box .share a:hover
+{
+    background: green;
+    color:white;
+}
+/* Styling for email section within footer */
+.footer .box-container .box .email
+{
+    margin:11px 0;
+    padding: 16px;
+    border-radius:#eee;
+    font-size: 15px;
+    color: black;
+    text-transform: none;
+    margin-right: 50px;
+    margin-right: 5%;
+
+
+}
+ /* Styling for payment images within footer */
+.footer .box-container .box .payment-img
+{
+    margin: -190px;
+    height: 20%;
+    margin-left:-10%;
+    margin-right: 100%;
+    width: 50%;
+  
+    
+}
+/* Styling for credits within footer */
+.footer .credit
+{
+    text-align: center;
+    margin-top: 32px;
+    padding:16px;
+    padding-top: 30px;
+    font-size: 15px;
+    color: black;
+   
+    
+    
+
+}
+/* Styling for special span within footer credits */
+.footer .credit span
+{
+    color:green;
+    
+    
+
+}
+
+
+
+/* footer css*/
+
+
+
+     
+  
+  /* Styling for the footer section */
+ 
+    .footer
+     { 
+        
+       text-align: center;
+       
+       
+    
+
+    } 
+/* Styling for phone icon */
+
+    .fa-phone
+    {
+        margin-left: -20%;
+    }
+    /* Styling for envelope icon */
+    .fa-envelope
+    {
+        margin-left: 12%;
+    }
+    /* Styling for map marker icon */
+    .fa-map-marker
+    {
+        margin-left: 8%;
+    }
+/* Styling for arrow icon */
+     .fa-arrow-right
+    {
+      margin-left: -5%;
+     
+    
+    } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
